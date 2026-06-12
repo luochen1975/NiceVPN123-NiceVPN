@@ -21,13 +21,39 @@ def init():
         timeout = config['timeout']
         testurl = config['test-url']
         outfile = config['outfile']
+    
     # get clash config file
+    headers = {
+        'User-Agent': 'ClashforWindows/0.20.39',
+        'Accept': 'text/yaml,application/yaml,*/*',
+    }
+    
     if source.startswith('http://'):
-        proxyconfig = yaml.load(requests.get(source).text, Loader=SafeLoader)
+        response = requests.get(source, headers=headers, timeout=30)
+        response.raise_for_status()
+        raw_text = response.text
+        if '<html' in raw_text.lower() or '<!doctype' in raw_text.lower():
+            raise ValueError(
+                f"Source returned HTML instead of YAML.\n"
+                f"URL: {source}\n"
+                f"Response preview:\n{raw_text[:500]}"
+            )
+        proxyconfig = yaml.load(raw_text, Loader=SafeLoader)
+        
     elif source.startswith('https://'):
-        raw_text = requests.get(source).text
+        response = requests.get(source, headers=headers, timeout=30)
+        response.raise_for_status()
+        raw_text = response.text
+        if '<html' in raw_text.lower() or '<!doctype' in raw_text.lower():
+            raise ValueError(
+                f"Source returned HTML instead of YAML.\n"
+                f"URL: {source}\n"
+                f"可能原因: ghproxy 服务异常，请尝试更换代理或直接访问 GitHub\n"
+                f"Response preview:\n{raw_text[:500]}"
+            )
         clean_text = re.sub(r'[\x00-\x08\x0B\x0C\x0E-\x1F\x7F-\x9F]', '', raw_text)
         proxyconfig = yaml.load(clean_text, Loader=SafeLoader)
+        
     else:
         with open(source, 'r') as reader:
             proxyconfig = yaml.load(reader, Loader=SafeLoader)
