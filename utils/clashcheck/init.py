@@ -24,7 +24,9 @@ def init():
     if source.startswith('http://'):
         proxyconfig = yaml.load(requests.get(source).text, Loader=SafeLoader)
     elif source.startswith('https://'):
-        proxyconfig = yaml.load(requests.get(source).text, Loader=SafeLoader)
+        raw_text = requests.get(source).text
+        clean_text = re.sub(r'[\x00-\x08\x0B\x0C\x0E-\x1F\x7F-\x9F]', '', raw_text)
+        proxyconfig = yaml.load(clean_text, Loader=SafeLoader)
     else:
         with open(source, 'r') as reader:
             proxyconfig = yaml.load(reader, Loader=SafeLoader)
