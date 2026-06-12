@@ -6,7 +6,9 @@ def parse(data_in):
     dtpr2 = [ x for x in dtpr1 if ".yaml" in x]
     textdict = {}
     for x in dtpr2:
-        date, filename = x.split('/')
+        import os
+        date = os.path.dirname(x)
+        filename = os.path.basename(x)
         if date in textdict:
             textdict[date].append(filename)
         else:
