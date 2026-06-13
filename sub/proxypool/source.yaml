@@ -112,11 +112,11 @@
 
 - type: clash
   options:
-    url: https://eu-proxypool.herokuapp.com/clash/proxies
+    url: https://api.liltjay.ip-ddns.com/TQWMYCWH2D
 
 - type: clash
   options:
-    url: https://us-proxypool.herokuapp.com/clash/proxies
+    url: https://chuanyun-endpoint.cc/s/aa808d72d252c9eacab5699345e89aa7
 
 - type: clash
   options:
