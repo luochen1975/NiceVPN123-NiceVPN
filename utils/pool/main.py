@@ -52,7 +52,11 @@ if __name__ == '__main__':
             config = yaml.load(reader, Loader=SafeLoader)
             subscribe_links = config['sub']
             subscribe_files = config['local']
-        directories, total = get_file_list()
+        result = get_file_list()
+        if result is None:
+            directories, total = {}, 0
+        else:
+            directories, total = result
         data = parse(directories)
         try:
             sfiles = len(subscribe_links)
