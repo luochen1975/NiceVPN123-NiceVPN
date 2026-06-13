@@ -196,8 +196,7 @@ dns:
       - +.googleapis.com
       - +.gvt1.com
 proxies:
-  - {name: 🇩🇪 DE 1 → tg@nicevpn123, server: de-1.hysteria.ltd, port: 9443, type: trojan, password: LYaEYwjN8LjWTRJdCCTzW7V6gK7atJVu, sni: de-1.hysteria.ltd, skip-cert-verify: true, udp: true}
-  - {name: 🇺🇸 US 1 → tg@nicevpn123, server: 13.135.172.147, port: 80, type: ss, cipher: aes-256-gcm, password: dada1203, udp: true}
+  - {name: 🇩🇪 DE, server: de-1.hysteria.ltd, port: 9443, type: trojan, password: LYaEYwjN8LjWTRJdCCTzW7V6gK7atJVu, sni: de-1.hysteria.ltd, skip-cert-verify: true, udp: true}
 proxy-groups:
   - name: 🌐 节点选择
     type: select
@@ -215,16 +214,14 @@ proxy-groups:
   - name: ✋ 手动选择
     type: select
     proxies:
-      - 🇩🇪 DE 1 → tg@nicevpn123
-      - 🇺🇸 US 1 → tg@nicevpn123
+      - 🇩🇪 DE
   - name: 💡 自动选择
     type: url-test
     url: https://www.google.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - 🇩🇪 DE 1 → tg@nicevpn123
-      - 🇺🇸 US 1 → tg@nicevpn123
+      - 🇩🇪 DE
   - name: 🇭🇰 香港节点
     type: url-test
     url: https://www.google.com/generate_204
@@ -245,7 +242,7 @@ proxy-groups:
     interval: 300
     tolerance: 100
     proxies:
-      - 🇺🇸 US 1 → tg@nicevpn123
+      - DIRECT
   - name: 🇹🇼 台湾节点
     type: url-test
     url: https://www.google.com/generate_204
@@ -270,15 +267,14 @@ proxy-groups:
   - name: 🌍 其他地区
     type: select
     proxies:
-      - 🇩🇪 DE 1 → tg@nicevpn123
+      - 🇩🇪 DE
   - name: 🪜 故障转移
     type: fallback
     url: https://www.google.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - 🇩🇪 DE 1 → tg@nicevpn123
-      - 🇺🇸 US 1 → tg@nicevpn123
+      - 🇩🇪 DE
   - name: 👉 国内网站
     type: select
     proxies:
