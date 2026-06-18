@@ -197,9 +197,8 @@ dns:
       - +.gvt1.com
 proxies:
   - {name: 🇦🇺 AU 1 → tg@nicevpn123, server: 129.154.50.159, port: 443, type: trojan, password: eeb6823c-b926-4ea2-866a-5542edd26e59, sni: tjsp.hhxaf.cc.cd, skip-cert-verify: true, network: ws, ws-opts: {path: "%2F", headers: {Host: tjsp.hhxaf.cc.cd}}, udp: true}
-  - {name: 🇬🇧 GB 1 → tg@nicevpn123, server: 82.38.31.15, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: oZIoA69Q8yhcQV8ka3Pa3A, udp: true}
-  - {name: 🇺🇸 US 1 → tg@nicevpn123, server: 69.63.223.42, port: 443, type: trojan, password: eeb6823c-b926-4ea2-866a-5542edd26e59, sni: tjsp.hhxaf.cc.cd, skip-cert-verify: true, network: ws, ws-opts: {path: "%2F", headers: {Host: tjsp.hhxaf.cc.cd}}, udp: true}
-  - {name: 🇺🇸 US 2 → tg@nicevpn123, server: 154.17.28.152, port: 443, type: trojan, password: eeb6823c-b926-4ea2-866a-5542edd26e59, sni: hhcm.hhxaf.cc.cd, skip-cert-verify: true, network: ws, ws-opts: {path: "%2F", headers: {Host: hhcm.hhxaf.cc.cd}}, udp: true}
+  - {name: 🇪🇸 ES 1 → tg@nicevpn123, server: 85.155.176.241, port: 443, type: trojan, password: eeb6823c-b926-4ea2-866a-5542edd26e59, sni: hhcm.hhxaf.cc.cd, skip-cert-verify: true, network: ws, ws-opts: {path: "%2F", headers: {Host: hhcm.hhxaf.cc.cd}}, udp: true}
+  - {name: 🇺🇸 US 1 → tg@nicevpn123, server: 45.59.184.78, port: 8443, type: trojan, password: eeb6823c-b926-4ea2-866a-5542edd26e59, sni: hhcm.hhxaf.cc.cd, skip-cert-verify: true, network: ws, ws-opts: {path: "%2F", headers: {Host: hhcm.hhxaf.cc.cd}}, udp: true}
 proxy-groups:
   - name: 🌐 节点选择
     type: select
@@ -218,9 +217,8 @@ proxy-groups:
     type: select
     proxies:
       - 🇦🇺 AU 1 → tg@nicevpn123
-      - 🇬🇧 GB 1 → tg@nicevpn123
+      - 🇪🇸 ES 1 → tg@nicevpn123
       - 🇺🇸 US 1 → tg@nicevpn123
-      - 🇺🇸 US 2 → tg@nicevpn123
   - name: 💡 自动选择
     type: url-test
     url: https://www.google.com/generate_204
@@ -228,9 +226,8 @@ proxy-groups:
     tolerance: 50
     proxies:
       - 🇦🇺 AU 1 → tg@nicevpn123
-      - 🇬🇧 GB 1 → tg@nicevpn123
+      - 🇪🇸 ES 1 → tg@nicevpn123
       - 🇺🇸 US 1 → tg@nicevpn123
-      - 🇺🇸 US 2 → tg@nicevpn123
   - name: 🇭🇰 香港节点
     type: url-test
     url: https://www.google.com/generate_204
@@ -252,7 +249,6 @@ proxy-groups:
     tolerance: 100
     proxies:
       - 🇺🇸 US 1 → tg@nicevpn123
-      - 🇺🇸 US 2 → tg@nicevpn123
   - name: 🇹🇼 台湾节点
     type: url-test
     url: https://www.google.com/generate_204
@@ -278,7 +274,7 @@ proxy-groups:
     type: select
     proxies:
       - 🇦🇺 AU 1 → tg@nicevpn123
-      - 🇬🇧 GB 1 → tg@nicevpn123
+      - 🇪🇸 ES 1 → tg@nicevpn123
   - name: 🪜 故障转移
     type: fallback
     url: https://www.google.com/generate_204
@@ -286,9 +282,8 @@ proxy-groups:
     tolerance: 50
     proxies:
       - 🇦🇺 AU 1 → tg@nicevpn123
-      - 🇬🇧 GB 1 → tg@nicevpn123
+      - 🇪🇸 ES 1 → tg@nicevpn123
       - 🇺🇸 US 1 → tg@nicevpn123
-      - 🇺🇸 US 2 → tg@nicevpn123
   - name: 👉 国内网站
     type: select
     proxies:
