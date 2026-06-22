@@ -196,7 +196,8 @@ dns:
       - +.googleapis.com
       - +.gvt1.com
 proxies:
-  - {name: CH, server: 83.228.224.161, port: 42549, type: trojan, password: SoftNetConnect, sni: www.speedtest.net, skip-cert-verify: true, udp: true}
+  - {name: 🇨🇳 CN 1 → tg@nicevpn123, server: 18.162.41.225, port: 6357, type: trojan, password: 860c3c2c89a1c7515792be1c5295d21e, sni: www.nintendogames.net, skip-cert-verify: true, udp: true}
+  - {name: 🇨🇳 CN 2 → tg@nicevpn123, server: 18.162.41.225, port: 37973, type: trojan, password: 860c3c2c89a1c7515792be1c5295d21e, sni: www.nintendogames.net, skip-cert-verify: true, udp: true}
 proxy-groups:
   - name: 🌐 节点选择
     type: select
@@ -214,14 +215,16 @@ proxy-groups:
   - name: ✋ 手动选择
     type: select
     proxies:
-      - CH
+      - 🇨🇳 CN 1 → tg@nicevpn123
+      - 🇨🇳 CN 2 → tg@nicevpn123
   - name: 💡 自动选择
     type: url-test
     url: https://www.google.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - CH
+      - 🇨🇳 CN 1 → tg@nicevpn123
+      - 🇨🇳 CN 2 → tg@nicevpn123
   - name: 🇭🇰 香港节点
     type: url-test
     url: https://www.google.com/generate_204
@@ -267,14 +270,16 @@ proxy-groups:
   - name: 🌍 其他地区
     type: select
     proxies:
-      - CH
+      - 🇨🇳 CN 1 → tg@nicevpn123
+      - 🇨🇳 CN 2 → tg@nicevpn123
   - name: 🪜 故障转移
     type: fallback
     url: https://www.google.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - CH
+      - 🇨🇳 CN 1 → tg@nicevpn123
+      - 🇨🇳 CN 2 → tg@nicevpn123
   - name: 👉 国内网站
     type: select
     proxies:
