@@ -199,12 +199,12 @@ proxies:
   - {name: IR 1 → tg@nicevpn123, server: 45.131.4.118, port: 443, type: trojan, password: MiTiVPN, sni: 95r.ir, skip-cert-verify: true, network: ws, ws-opts: {path: "%2FMiTiVPN%3DSe", headers: {Host: 95r.ir}}, udp: true}
   - {name: 🇫🇷 FR 1 → tg@nicevpn123, server: 94.140.0.100, port: 443, type: trojan, password: MITIVPN, sni: 95r.ir, skip-cert-verify: true, network: ws, ws-opts: {path: "%2FMiTiVPN%3DUsa", headers: {Host: 95r.ir}}, udp: true}
   - {name: 🇬🇧 GB 1 → tg@nicevpn123, server: 164.38.155.135, port: 443, type: trojan, password: MITIVPN, sni: 95r.ir, skip-cert-verify: true, network: ws, ws-opts: {path: "%2FMiTiVPN%3DDe", headers: {Host: 95r.ir}}, udp: true}
-  - {name: 🇺🇸 US 1 → tg@nicevpn123, server: 199.181.197.176, port: 443, type: trojan, password: MiTiVPN, sni: 95r.ir, skip-cert-verify: true, network: ws, ws-opts: {path: "%2FMiTiVPN%3DfL", headers: {Host: 95r.ir}}, udp: true}
+  - {name: 🇺🇸 US 1 → tg@nicevpn123, server: iranpoems.ir, port: 443, type: trojan, password: Mitivpn, sni: www.gamingdll.ir, skip-cert-verify: true, network: ws, ws-opts: {path: "%2Fusa%3Dmitivpn", headers: {Host: www.gamingdll.ir}}, udp: true}
   - {name: 🇺🇸 US 2 → tg@nicevpn123, server: 54.46.30.217, port: 53012, type: trojan, password: 230012981ba34c12fec11deca0379005, sni: www.nintendogames.net, skip-cert-verify: true, udp: true}
   - {name: 🇺🇸 US 3 → tg@nicevpn123, server: 54.46.109.132, port: 20744, type: trojan, password: BxceQaOe, sni: t.me%2Fripaojiedian, skip-cert-verify: true, udp: true}
   - {name: 🇺🇸 US 4 → tg@nicevpn123, server: 54.46.30.217, port: 48738, type: trojan, password: 230012981ba34c12fec11deca0379005, sni: www.nintendogames.net, skip-cert-verify: true, udp: true}
-  - {name: 🇺🇸 US 5 → tg@nicevpn123, server: 54.46.30.217, port: 5701, type: trojan, password: 230012981ba34c12fec11deca0379005, sni: www.nintendogames.net, skip-cert-verify: true, udp: true}
-  - {name: 🇺🇸 US 6 → tg@nicevpn123, server: 54.46.30.217, port: 3743, type: trojan, password: 230012981ba34c12fec11deca0379005, sni: www.nintendogames.net, skip-cert-verify: true, udp: true}
+  - {name: 🇺🇸 US 5 → tg@nicevpn123, server: 54.46.30.217, port: 3743, type: trojan, password: 230012981ba34c12fec11deca0379005, sni: www.nintendogames.net, skip-cert-verify: true, udp: true}
+  - {name: 🇺🇸 US 6 → tg@nicevpn123, server: 54.46.30.217, port: 5701, type: trojan, password: 230012981ba34c12fec11deca0379005, sni: www.nintendogames.net, skip-cert-verify: true, udp: true}
   - {name: 🇺🇸 US 7 → tg@nicevpn123, server: 54.46.30.217, port: 49277, type: trojan, password: 230012981ba34c12fec11deca0379005, sni: www.nintendogames.net, skip-cert-verify: true, udp: true}
   - {name: 🇺🇸 US 8 → tg@nicevpn123, server: 54.46.109.132, port: 22657, type: trojan, password: BxceQaOe, sni: t.me%2Fripaojiedian, skip-cert-verify: true, udp: true}
 proxy-groups:
