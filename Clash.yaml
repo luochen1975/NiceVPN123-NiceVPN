@@ -197,12 +197,9 @@ dns:
       - +.gvt1.com
 proxies:
   - {name: IR 1 → tg@nicevpn123, server: 45.131.4.118, port: 443, type: trojan, password: MiTiVPN, sni: 95r.ir, skip-cert-verify: true, network: ws, ws-opts: {path: "%2FMiTiVPN%3DSe", headers: {Host: 95r.ir}}, udp: true}
-  - {name: 🇨🇳 CN 1 → tg@nicevpn123, server: 18.163.56.230, port: 3941, type: trojan, password: BxceQaOe, sni: t.me%2Fripaojiedian, skip-cert-verify: true, udp: true}
   - {name: 🇫🇷 FR 1 → tg@nicevpn123, server: 94.140.0.100, port: 443, type: trojan, password: MITIVPN, sni: 95r.ir, skip-cert-verify: true, network: ws, ws-opts: {path: "%2FMiTiVPN%3DUsa", headers: {Host: 95r.ir}}, udp: true}
   - {name: 🇬🇧 GB 1 → tg@nicevpn123, server: 164.38.155.135, port: 443, type: trojan, password: MITIVPN, sni: 95r.ir, skip-cert-verify: true, network: ws, ws-opts: {path: "%2FMiTiVPN%3DDe", headers: {Host: 95r.ir}}, udp: true}
   - {name: 🇺🇸 US 1 → tg@nicevpn123, server: iranpoems.ir, port: 443, type: trojan, password: Mitivpn, sni: www.gamingdll.ir, skip-cert-verify: true, network: ws, ws-opts: {path: "%2Fusa%3Dmitivpn", headers: {Host: www.gamingdll.ir}}, udp: true}
-  - {name: 🇺🇸 US 2 → tg@nicevpn123, server: 37.156.44.215, port: 42549, type: trojan, password: SoftNetConnect, sni: www.speedtest.net, skip-cert-verify: true, udp: true}
-  - {name: 🇺🇸 US 3 → tg@nicevpn123, server: 37.156.44.215, port: 42549, type: trojan, password: SoftNetConnect, skip-cert-verify: true, udp: true}
 proxy-groups:
   - name: 🌐 节点选择
     type: select
@@ -221,12 +218,9 @@ proxy-groups:
     type: select
     proxies:
       - IR 1 → tg@nicevpn123
-      - 🇨🇳 CN 1 → tg@nicevpn123
       - 🇫🇷 FR 1 → tg@nicevpn123
       - 🇬🇧 GB 1 → tg@nicevpn123
       - 🇺🇸 US 1 → tg@nicevpn123
-      - 🇺🇸 US 2 → tg@nicevpn123
-      - 🇺🇸 US 3 → tg@nicevpn123
   - name: 💡 自动选择
     type: url-test
     url: https://www.google.com/generate_204
@@ -234,12 +228,9 @@ proxy-groups:
     tolerance: 50
     proxies:
       - IR 1 → tg@nicevpn123
-      - 🇨🇳 CN 1 → tg@nicevpn123
       - 🇫🇷 FR 1 → tg@nicevpn123
       - 🇬🇧 GB 1 → tg@nicevpn123
       - 🇺🇸 US 1 → tg@nicevpn123
-      - 🇺🇸 US 2 → tg@nicevpn123
-      - 🇺🇸 US 3 → tg@nicevpn123
   - name: 🇭🇰 香港节点
     type: url-test
     url: https://www.google.com/generate_204
@@ -261,8 +252,6 @@ proxy-groups:
     tolerance: 100
     proxies:
       - 🇺🇸 US 1 → tg@nicevpn123
-      - 🇺🇸 US 2 → tg@nicevpn123
-      - 🇺🇸 US 3 → tg@nicevpn123
   - name: 🇹🇼 台湾节点
     type: url-test
     url: https://www.google.com/generate_204
@@ -288,7 +277,6 @@ proxy-groups:
     type: select
     proxies:
       - IR 1 → tg@nicevpn123
-      - 🇨🇳 CN 1 → tg@nicevpn123
       - 🇫🇷 FR 1 → tg@nicevpn123
       - 🇬🇧 GB 1 → tg@nicevpn123
   - name: 🪜 故障转移
@@ -298,12 +286,9 @@ proxy-groups:
     tolerance: 50
     proxies:
       - IR 1 → tg@nicevpn123
-      - 🇨🇳 CN 1 → tg@nicevpn123
       - 🇫🇷 FR 1 → tg@nicevpn123
       - 🇬🇧 GB 1 → tg@nicevpn123
       - 🇺🇸 US 1 → tg@nicevpn123
-      - 🇺🇸 US 2 → tg@nicevpn123
-      - 🇺🇸 US 3 → tg@nicevpn123
   - name: 👉 国内网站
     type: select
     proxies:
