@@ -196,19 +196,8 @@ dns:
       - +.googleapis.com
       - +.gvt1.com
 proxies:
-  - {name: IT 1 → tg@nicevpn123, server: celestara.biz, port: 443, type: trojan, password: MiTiVPN, sni: Nl.App-Cloud.ir, skip-cert-verify: true, network: ws, ws-opts: {path: "%2FMiTiVPN%3DNL", headers: {Host: Nl.App-Cloud.ir}}, udp: true}
-  - {name: LT 1 → tg@nicevpn123, server: 88.216.67.230, port: 443, type: trojan, password: MiTiVPN, sni: Nel.App-Cloud.ir, skip-cert-verify: true, network: ws, ws-opts: {path: "%2FMiTiVPN%3DNL", headers: {Host: Nel.App-Cloud.ir}}, udp: true}
-  - {name: 🇫🇷 FR 1 → tg@nicevpn123, server: 94.140.0.40, port: 443, type: trojan, password: MITIVPN, sni: Usa.App-Cloud.ir, skip-cert-verify: true, network: ws, ws-opts: {path: "%2FMiTiVPN%3DUsa", headers: {Host: Usa.App-Cloud.ir}}, udp: true}
-  - {name: 🇬🇧 GB 1 → tg@nicevpn123, server: 85.234.73.234, port: 1080, type: ss, cipher: chacha20-ietf-poly1305, password: 5KilolFUjzlMabQ0ORwBUwr6sSvqRCzh, udp: true}
-  - {name: 🇳🇱 NL 1 → tg@nicevpn123, server: 185.133.35.22, port: 443, type: trojan, password: MiTiVPN, sni: Finl.App-Cloud.ir, skip-cert-verify: true, network: ws, ws-opts: {path: "%2FMiTiVPN%3DfL", headers: {Host: Finl.App-Cloud.ir}}, udp: true}
-  - {name: 🇺🇸 US 1 → tg@nicevpn123, server: 104.16.72.41, port: 443, type: trojan, password: MiTiVPN, sni: sw.App-Cloud.ir, skip-cert-verify: true, network: ws, ws-opts: {path: "%2FMiTiVPN%3DSe", headers: {Host: sw.App-Cloud.ir}}, udp: true}
-  - {name: 🇺🇸 US 2 → tg@nicevpn123, server: 104.19.230.21, port: 443, type: trojan, password: MiTiVPN, sni: Nl.App-Cloud.ir, skip-cert-verify: true, network: ws, ws-opts: {path: "%2FMiTiVPN%3DNL", headers: {Host: Nl.App-Cloud.ir}}, udp: true}
-  - {name: 🇺🇸 US 3 → tg@nicevpn123, server: 104.18.152.225, port: 443, type: trojan, password: MiTiVPN, sni: swe.App-Cloud.ir, skip-cert-verify: true, network: ws, ws-opts: {path: "%2FMiTiVPN%3DSe", headers: {Host: swe.App-Cloud.ir}}, udp: true}
-  - {name: 🇺🇸 US 4 → tg@nicevpn123, server: 172.67.138.53, port: 443, type: trojan, password: MITIVPN, sni: Usa.App-Cloud.ir, skip-cert-verify: true, network: ws, ws-opts: {path: "%2FMiTiVPN%3DUsa", headers: {Host: Usa.App-Cloud.ir}}, udp: true}
-  - {name: 🇺🇸 US 5 → tg@nicevpn123, server: assets.fiverr.com, port: 443, type: trojan, password: MITIVPN, sni: De.App-Cloud.ir, skip-cert-verify: true, network: ws, ws-opts: {path: "%2FMiTiVPN%3DDe", headers: {Host: De.App-Cloud.ir}}, udp: true}
-  - {name: 🇺🇸 US 6 → tg@nicevpn123, server: assets.fiverr.com, port: 443, type: trojan, password: MITIVPN, sni: Usa.App-Cloud.ir, skip-cert-verify: true, network: ws, ws-opts: {path: "%2FMiTiVPN%3DUsa", headers: {Host: Usa.App-Cloud.ir}}, udp: true}
-  - {name: 🇺🇸 US 7 → tg@nicevpn123, server: assets.fiverr.com, port: 443, type: trojan, password: MiTiVPN, sni: Nl.App-Cloud.ir, skip-cert-verify: true, network: ws, ws-opts: {path: "%2FMiTiVPN%3DNL", headers: {Host: Nl.App-Cloud.ir}}, udp: true}
-  - {name: 🇺🇸 US 8 → tg@nicevpn123, server: velocore.co, port: 443, type: trojan, password: MiTiVPN, sni: sw.App-Cloud.ir, skip-cert-verify: true, network: ws, ws-opts: {path: "%2FMiTiVPN%3DSe", headers: {Host: sw.App-Cloud.ir}}, udp: true}
+  - {name: 🇺🇸 US 1 → tg@nicevpn123, server: 104.18.42.98, port: 443, type: trojan, password: MiTiVPN, sni: s-w.App-Cloud.ir, skip-cert-verify: true, network: ws, ws-opts: {path: "%2FMiTiVPN%3DSe", headers: {Host: s-w.App-Cloud.ir}}, udp: true}
+  - {name: 🇺🇸 US 2 → tg@nicevpn123, server: 172.64.32.75, port: 443, type: trojan, password: MITIVPN, sni: united.App-Cloud.ir, skip-cert-verify: true, network: ws, ws-opts: {path: "%2FMiTiVPN%3DUsa", headers: {Host: united.App-Cloud.ir}}, udp: true}
 proxy-groups:
   - name: 🌐 节点选择
     type: select
@@ -226,38 +215,16 @@ proxy-groups:
   - name: ✋ 手动选择
     type: select
     proxies:
-      - IT 1 → tg@nicevpn123
-      - LT 1 → tg@nicevpn123
-      - 🇫🇷 FR 1 → tg@nicevpn123
-      - 🇬🇧 GB 1 → tg@nicevpn123
-      - 🇳🇱 NL 1 → tg@nicevpn123
       - 🇺🇸 US 1 → tg@nicevpn123
       - 🇺🇸 US 2 → tg@nicevpn123
-      - 🇺🇸 US 3 → tg@nicevpn123
-      - 🇺🇸 US 4 → tg@nicevpn123
-      - 🇺🇸 US 5 → tg@nicevpn123
-      - 🇺🇸 US 6 → tg@nicevpn123
-      - 🇺🇸 US 7 → tg@nicevpn123
-      - 🇺🇸 US 8 → tg@nicevpn123
   - name: 💡 自动选择
     type: url-test
     url: https://www.google.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - IT 1 → tg@nicevpn123
-      - LT 1 → tg@nicevpn123
-      - 🇫🇷 FR 1 → tg@nicevpn123
-      - 🇬🇧 GB 1 → tg@nicevpn123
-      - 🇳🇱 NL 1 → tg@nicevpn123
       - 🇺🇸 US 1 → tg@nicevpn123
       - 🇺🇸 US 2 → tg@nicevpn123
-      - 🇺🇸 US 3 → tg@nicevpn123
-      - 🇺🇸 US 4 → tg@nicevpn123
-      - 🇺🇸 US 5 → tg@nicevpn123
-      - 🇺🇸 US 6 → tg@nicevpn123
-      - 🇺🇸 US 7 → tg@nicevpn123
-      - 🇺🇸 US 8 → tg@nicevpn123
   - name: 🇭🇰 香港节点
     type: url-test
     url: https://www.google.com/generate_204
@@ -280,12 +247,6 @@ proxy-groups:
     proxies:
       - 🇺🇸 US 1 → tg@nicevpn123
       - 🇺🇸 US 2 → tg@nicevpn123
-      - 🇺🇸 US 3 → tg@nicevpn123
-      - 🇺🇸 US 4 → tg@nicevpn123
-      - 🇺🇸 US 5 → tg@nicevpn123
-      - 🇺🇸 US 6 → tg@nicevpn123
-      - 🇺🇸 US 7 → tg@nicevpn123
-      - 🇺🇸 US 8 → tg@nicevpn123
   - name: 🇹🇼 台湾节点
     type: url-test
     url: https://www.google.com/generate_204
@@ -310,30 +271,15 @@ proxy-groups:
   - name: 🌍 其他地区
     type: select
     proxies:
-      - IT 1 → tg@nicevpn123
-      - LT 1 → tg@nicevpn123
-      - 🇫🇷 FR 1 → tg@nicevpn123
-      - 🇬🇧 GB 1 → tg@nicevpn123
-      - 🇳🇱 NL 1 → tg@nicevpn123
+      - DIRECT
   - name: 🪜 故障转移
     type: fallback
     url: https://www.google.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - IT 1 → tg@nicevpn123
-      - LT 1 → tg@nicevpn123
-      - 🇫🇷 FR 1 → tg@nicevpn123
-      - 🇬🇧 GB 1 → tg@nicevpn123
-      - 🇳🇱 NL 1 → tg@nicevpn123
       - 🇺🇸 US 1 → tg@nicevpn123
       - 🇺🇸 US 2 → tg@nicevpn123
-      - 🇺🇸 US 3 → tg@nicevpn123
-      - 🇺🇸 US 4 → tg@nicevpn123
-      - 🇺🇸 US 5 → tg@nicevpn123
-      - 🇺🇸 US 6 → tg@nicevpn123
-      - 🇺🇸 US 7 → tg@nicevpn123
-      - 🇺🇸 US 8 → tg@nicevpn123
   - name: 👉 国内网站
     type: select
     proxies:
