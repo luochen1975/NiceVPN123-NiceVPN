@@ -196,8 +196,9 @@ dns:
       - +.googleapis.com
       - +.gvt1.com
 proxies:
-  - {name: 🇺🇸 US 1 → tg@nicevpn123, server: 104.18.42.98, port: 443, type: trojan, password: MiTiVPN, sni: s-w.App-Cloud.ir, skip-cert-verify: true, network: ws, ws-opts: {path: "%2FMiTiVPN%3DSe", headers: {Host: s-w.App-Cloud.ir}}, udp: true}
-  - {name: 🇺🇸 US 2 → tg@nicevpn123, server: 172.64.32.75, port: 443, type: trojan, password: MITIVPN, sni: united.App-Cloud.ir, skip-cert-verify: true, network: ws, ws-opts: {path: "%2FMiTiVPN%3DUsa", headers: {Host: united.App-Cloud.ir}}, udp: true}
+  - {name: 🇨🇳 CN 1 → tg@nicevpn123, server: 18.162.53.72, port: 34638, type: trojan, password: BxceQaOe, sni: t.me%2Fripaojiedian, skip-cert-verify: true, udp: true}
+  - {name: 🇯🇵 JP 1 → tg@nicevpn123, server: 43.199.66.183, port: 11035, type: trojan, password: BxceQaOe, sni: t.me%2Fripaojiedian, skip-cert-verify: true, udp: true}
+  - {name: 🇺🇸 US 1 → tg@nicevpn123, server: auto.mhjstudio.ir, port: 443, type: trojan, password: dfdse334053vuohm, sni: alternative.mhjstudio.ir, skip-cert-verify: true, network: ws, ws-opts: {path: "%2F", headers: {Host: alternative.mhjstudio.ir}}, udp: true}
 proxy-groups:
   - name: 🌐 节点选择
     type: select
@@ -215,16 +216,18 @@ proxy-groups:
   - name: ✋ 手动选择
     type: select
     proxies:
+      - 🇨🇳 CN 1 → tg@nicevpn123
+      - 🇯🇵 JP 1 → tg@nicevpn123
       - 🇺🇸 US 1 → tg@nicevpn123
-      - 🇺🇸 US 2 → tg@nicevpn123
   - name: 💡 自动选择
     type: url-test
     url: https://www.google.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
+      - 🇨🇳 CN 1 → tg@nicevpn123
+      - 🇯🇵 JP 1 → tg@nicevpn123
       - 🇺🇸 US 1 → tg@nicevpn123
-      - 🇺🇸 US 2 → tg@nicevpn123
   - name: 🇭🇰 香港节点
     type: url-test
     url: https://www.google.com/generate_204
@@ -238,7 +241,7 @@ proxy-groups:
     interval: 300
     tolerance: 100
     proxies:
-      - DIRECT
+      - 🇯🇵 JP 1 → tg@nicevpn123
   - name: 🇺🇲 美国节点
     type: url-test
     url: https://www.google.com/generate_204
@@ -246,7 +249,6 @@ proxy-groups:
     tolerance: 100
     proxies:
       - 🇺🇸 US 1 → tg@nicevpn123
-      - 🇺🇸 US 2 → tg@nicevpn123
   - name: 🇹🇼 台湾节点
     type: url-test
     url: https://www.google.com/generate_204
@@ -271,15 +273,16 @@ proxy-groups:
   - name: 🌍 其他地区
     type: select
     proxies:
-      - DIRECT
+      - 🇨🇳 CN 1 → tg@nicevpn123
   - name: 🪜 故障转移
     type: fallback
     url: https://www.google.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
+      - 🇨🇳 CN 1 → tg@nicevpn123
+      - 🇯🇵 JP 1 → tg@nicevpn123
       - 🇺🇸 US 1 → tg@nicevpn123
-      - 🇺🇸 US 2 → tg@nicevpn123
   - name: 👉 国内网站
     type: select
     proxies:
