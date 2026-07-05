@@ -196,7 +196,8 @@ dns:
       - +.googleapis.com
       - +.gvt1.com
 proxies:
-  - {name: 🇺🇸 US, server: us04.network-cdn-gw-yd.net, port: 44404, type: ss, cipher: chacha20-ietf-poly1305, password: 1348a838-9105-4f3e-bd04-699a9be10480, udp: true}
+  - {name: 🇯🇵 JP 1 → tg@nicevpn123, server: 3.112.52.247, port: 27826, type: trojan, password: BxceQaOe, sni: t.me%252Fripaojiedian, skip-cert-verify: true, udp: true}
+  - {name: 🇵🇱 PL 1 → tg@nicevpn123, server: 95.40.58.154, port: 44265, type: trojan, password: BxceQaOe, sni: t.me%2Fripaojiedian, skip-cert-verify: true, udp: true}
 proxy-groups:
   - name: 🌐 节点选择
     type: select
@@ -214,14 +215,16 @@ proxy-groups:
   - name: ✋ 手动选择
     type: select
     proxies:
-      - 🇺🇸 US
+      - 🇯🇵 JP 1 → tg@nicevpn123
+      - 🇵🇱 PL 1 → tg@nicevpn123
   - name: 💡 自动选择
     type: url-test
     url: https://www.google.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - 🇺🇸 US
+      - 🇯🇵 JP 1 → tg@nicevpn123
+      - 🇵🇱 PL 1 → tg@nicevpn123
   - name: 🇭🇰 香港节点
     type: url-test
     url: https://www.google.com/generate_204
@@ -235,14 +238,14 @@ proxy-groups:
     interval: 300
     tolerance: 100
     proxies:
-      - DIRECT
+      - 🇯🇵 JP 1 → tg@nicevpn123
   - name: 🇺🇲 美国节点
     type: url-test
     url: https://www.google.com/generate_204
     interval: 300
     tolerance: 100
     proxies:
-      - 🇺🇸 US
+      - DIRECT
   - name: 🇹🇼 台湾节点
     type: url-test
     url: https://www.google.com/generate_204
@@ -267,14 +270,15 @@ proxy-groups:
   - name: 🌍 其他地区
     type: select
     proxies:
-      - DIRECT
+      - 🇵🇱 PL 1 → tg@nicevpn123
   - name: 🪜 故障转移
     type: fallback
     url: https://www.google.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - 🇺🇸 US
+      - 🇯🇵 JP 1 → tg@nicevpn123
+      - 🇵🇱 PL 1 → tg@nicevpn123
   - name: 👉 国内网站
     type: select
     proxies:
