@@ -196,7 +196,7 @@ dns:
       - +.googleapis.com
       - +.gvt1.com
 proxies:
-  - {name: 🇯🇵 JP, server: rich-mule.rooster465.autos, port: 443, type: trojan, password: PI36027154, sni: rich-mule.rooster465.autos, skip-cert-verify: true, udp: true}
+  - {name: 🇯🇵 JP, server: 43.199.252.80, port: 29443, type: trojan, password: BxceQaOe, sni: t.me%2Fripaojiedian, skip-cert-verify: true, udp: true}
 proxy-groups:
   - name: 🌐 节点选择
     type: select
