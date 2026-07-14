@@ -196,7 +196,7 @@ dns:
       - +.googleapis.com
       - +.gvt1.com
 proxies:
-  - {name: 🇺🇸 US, server: 152.42.191.178, port: 8443, type: trojan, password: cortex-trojan-2026, sni: www.bing.com, skip-cert-verify: true, network: ws, ws-opts: {path: "%2Ftrojan-ws-cortex", headers: {Host: www.bing.com}}, udp: true}
+  - {name: 🇯🇵 JP, server: 13.230.164.110, port: 19708, type: trojan, password: BxceQaOe, sni: t.me%252Fripaojiedian, skip-cert-verify: true, udp: true}
 proxy-groups:
   - name: 🌐 节点选择
     type: select
@@ -214,14 +214,14 @@ proxy-groups:
   - name: ✋ 手动选择
     type: select
     proxies:
-      - 🇺🇸 US
+      - 🇯🇵 JP
   - name: 💡 自动选择
     type: url-test
     url: https://www.google.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - 🇺🇸 US
+      - 🇯🇵 JP
   - name: 🇭🇰 香港节点
     type: url-test
     url: https://www.google.com/generate_204
@@ -235,14 +235,14 @@ proxy-groups:
     interval: 300
     tolerance: 100
     proxies:
-      - DIRECT
+      - 🇯🇵 JP
   - name: 🇺🇲 美国节点
     type: url-test
     url: https://www.google.com/generate_204
     interval: 300
     tolerance: 100
     proxies:
-      - 🇺🇸 US
+      - DIRECT
   - name: 🇹🇼 台湾节点
     type: url-test
     url: https://www.google.com/generate_204
@@ -274,7 +274,7 @@ proxy-groups:
     interval: 300
     tolerance: 50
     proxies:
-      - 🇺🇸 US
+      - 🇯🇵 JP
   - name: 👉 国内网站
     type: select
     proxies:
