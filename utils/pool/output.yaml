@@ -1,314 +1,314 @@
 proxies:
-- name: "\U0001F1EF\U0001F1F5 JP 1 TJN"
-  server: careful-penguin.rooster465.autos
+- name: "\U0001F1F8\U0001F1EC SG 1 TJN"
+  server: relevant-oryx.rooster465.autos
   port: 443
   type: trojan
   password: CF68213490
-  sni: careful-penguin.rooster465.autos
+  sni: relevant-oryx.rooster465.autos
   skip-cert-verify: true
   udp: true
-- name: "\U0001F1EF\U0001F1F5 JP 2 TJN"
-  server: fair-werewolf.rooster465.autos
+- name: "\U0001F1F8\U0001F1EC SG 2 TJN"
+  server: brief-warthog.rooster465.autos
   port: 443
   type: trojan
   password: CF68213490
-  sni: fair-werewolf.rooster465.autos
+  sni: brief-warthog.rooster465.autos
   skip-cert-verify: true
   udp: true
-- name: "\U0001F1EF\U0001F1F5 JP 3 TJN"
-  server: funny-hen.rooster465.autos
+- name: "\U0001F1F8\U0001F1EC SG 3 TJN"
+  server: bright-cicada.rooster465.autos
   port: 443
   type: trojan
   password: CF68213490
-  sni: funny-hen.rooster465.autos
+  sni: bright-cicada.rooster465.autos
   skip-cert-verify: true
   udp: true
-- name: "\U0001F1EF\U0001F1F5 JP 4 TJN"
-  server: live-drake.rooster465.autos
+- name: "\U0001F1F8\U0001F1EC SG 4 TJN"
+  server: normal-macaque.rooster465.autos
   port: 443
   type: trojan
   password: CF68213490
-  sni: live-drake.rooster465.autos
+  sni: normal-macaque.rooster465.autos
   skip-cert-verify: true
   udp: true
-- name: "\U0001F1EF\U0001F1F5 JP 5 TJN"
-  server: funny-hawk.rooster465.autos
+- name: "\U0001F1F8\U0001F1EC SG 5 TJN"
+  server: internal-krill.rooster465.autos
   port: 443
   type: trojan
   password: CF68213490
-  sni: funny-hawk.rooster465.autos
+  sni: internal-krill.rooster465.autos
   skip-cert-verify: true
   udp: true
 - name: "\U0001F1EF\U0001F1F5 JP 6 TJN"
-  server: eminent-panther.rooster465.autos
+  server: settling-humpback.rooster465.autos
   port: 443
   type: trojan
   password: CF68213490
-  sni: eminent-panther.rooster465.autos
+  sni: settling-humpback.rooster465.autos
   skip-cert-verify: true
   udp: true
 - name: "\U0001F1EF\U0001F1F5 JP 7 TJN"
-  server: gentle-honeybee.rooster465.autos
+  server: evolving-mollusk.rooster465.autos
   port: 443
   type: trojan
   password: CF68213490
-  sni: gentle-honeybee.rooster465.autos
+  sni: evolving-mollusk.rooster465.autos
   skip-cert-verify: true
   udp: true
 - name: "\U0001F1EF\U0001F1F5 JP 8 TJN"
-  server: moved-bluegill.rooster465.autos
+  server: adapting-giraffe.rooster465.autos
   port: 443
   type: trojan
   password: CF68213490
-  sni: moved-bluegill.rooster465.autos
+  sni: adapting-giraffe.rooster465.autos
   skip-cert-verify: true
   udp: true
 - name: "\U0001F1EF\U0001F1F5 JP 9 TJN"
-  server: musical-manatee.rooster465.autos
+  server: informed-stud.rooster465.autos
   port: 443
   type: trojan
   password: CF68213490
-  sni: musical-manatee.rooster465.autos
+  sni: informed-stud.rooster465.autos
   skip-cert-verify: true
   udp: true
 - name: "\U0001F1EF\U0001F1F5 JP 10 TJN"
-  server: sacred-shepherd.rooster465.autos
+  server: present-ram.rooster465.autos
   port: 443
   type: trojan
   password: CF68213490
-  sni: sacred-shepherd.rooster465.autos
+  sni: present-ram.rooster465.autos
   skip-cert-verify: true
   udp: true
 - name: "\U0001F1EF\U0001F1F5 JP 11 TJN"
-  server: next-turkey.rooster465.autos
+  server: shining-piranha.rooster465.autos
   port: 443
   type: trojan
   password: CF68213490
-  sni: next-turkey.rooster465.autos
+  sni: shining-piranha.rooster465.autos
   skip-cert-verify: true
   udp: true
 - name: "\U0001F1EF\U0001F1F5 JP 12 TJN"
-  server: alert-fish.rooster465.autos
+  server: free-hare.rooster465.autos
   port: 443
   type: trojan
   password: CF68213490
-  sni: alert-fish.rooster465.autos
+  sni: free-hare.rooster465.autos
   skip-cert-verify: true
   udp: true
 - name: "\U0001F1EF\U0001F1F5 JP 13 TJN"
-  server: skilled-lioness.rooster465.autos
+  server: immune-mullet.rooster465.autos
   port: 443
   type: trojan
   password: CF68213490
-  sni: skilled-lioness.rooster465.autos
+  sni: immune-mullet.rooster465.autos
   skip-cert-verify: true
   udp: true
 - name: "\U0001F1EF\U0001F1F5 JP 14 TJN"
-  server: nearby-egret.rooster465.autos
+  server: wealthy-gobbler.rooster465.autos
   port: 443
   type: trojan
   password: CF68213490
-  sni: nearby-egret.rooster465.autos
+  sni: wealthy-gobbler.rooster465.autos
   skip-cert-verify: true
   udp: true
 - name: "\U0001F1EF\U0001F1F5 JP 15 TJN"
-  server: smiling-fowl.rooster465.autos
+  server: innocent-rattler.rooster465.autos
   port: 443
   type: trojan
   password: CF68213490
-  sni: smiling-fowl.rooster465.autos
+  sni: innocent-rattler.rooster465.autos
   skip-cert-verify: true
   udp: true
 - name: "\U0001F1EF\U0001F1F5 JP 16 TJN"
-  server: smashing-fawn.rooster465.autos
+  server: ultimate-jaguar.rooster465.autos
   port: 443
   type: trojan
   password: CF68213490
-  sni: smashing-fawn.rooster465.autos
+  sni: ultimate-jaguar.rooster465.autos
   skip-cert-verify: true
   udp: true
 - name: "\U0001F1EF\U0001F1F5 JP 17 TJN"
-  server: star-moray.rooster465.autos
+  server: sacred-anemone.rooster465.autos
   port: 443
   type: trojan
   password: CF68213490
-  sni: star-moray.rooster465.autos
+  sni: sacred-anemone.rooster465.autos
   skip-cert-verify: true
   udp: true
-- name: "\U0001F1EF\U0001F1F5 JP 18 TJN"
-  server: in-oriole.rooster465.autos
+- name: "\U0001F1F0\U0001F1F7 KR 18 TJN"
+  server: central-jawfish.rooster465.autos
   port: 443
   type: trojan
   password: CF68213490
-  sni: in-oriole.rooster465.autos
+  sni: central-jawfish.rooster465.autos
   skip-cert-verify: true
   udp: true
-- name: "\U0001F1EF\U0001F1F5 JP 19 TJN"
-  server: steady-prawn.rooster465.autos
+- name: "\U0001F1F8\U0001F1EC SG 19 TJN"
+  server: star-hagfish.rooster465.autos
   port: 443
   type: trojan
   password: CF68213490
-  sni: steady-prawn.rooster465.autos
+  sni: star-hagfish.rooster465.autos
   skip-cert-verify: true
   udp: true
-- name: "\U0001F1EF\U0001F1F5 JP 20 TJN"
-  server: thankful-mustang.rooster465.autos
+- name: "\U0001F1F8\U0001F1EC SG 20 TJN"
+  server: vast-werewolf.rooster465.autos
   port: 443
   type: trojan
   password: CF68213490
-  sni: thankful-mustang.rooster465.autos
+  sni: vast-werewolf.rooster465.autos
   skip-cert-verify: true
   udp: true
-- name: "\U0001F1EF\U0001F1F5 JP 21 TJN"
-  server: summary-firefly.rooster465.autos
+- name: "\U0001F1F8\U0001F1EC SG 21 TJN"
+  server: modest-bat.rooster465.autos
   port: 443
   type: trojan
   password: CF68213490
-  sni: summary-firefly.rooster465.autos
+  sni: modest-bat.rooster465.autos
   skip-cert-verify: true
   udp: true
-- name: "\U0001F1EF\U0001F1F5 JP 22 TJN"
-  server: welcome-monitor.rooster465.autos
+- name: "\U0001F1F8\U0001F1EC SG 22 TJN"
+  server: intimate-moray.rooster465.autos
   port: 443
   type: trojan
   password: CF68213490
-  sni: welcome-monitor.rooster465.autos
+  sni: intimate-moray.rooster465.autos
   skip-cert-verify: true
   udp: true
-- name: "\U0001F1EF\U0001F1F5 JP 23 TJN"
-  server: adapting-basilisk.rooster465.autos
+- name: "\U0001F1F8\U0001F1EC SG 23 TJN"
+  server: tight-gator.rooster465.autos
   port: 443
   type: trojan
   password: CF68213490
-  sni: adapting-basilisk.rooster465.autos
+  sni: tight-gator.rooster465.autos
   skip-cert-verify: true
   udp: true
-- name: "\U0001F1EF\U0001F1F5 JP 24 TJN"
-  server: united-molly.rooster465.autos
+- name: "\U0001F1F8\U0001F1EC SG 24 TJN"
+  server: moral-basilisk.rooster465.autos
   port: 443
   type: trojan
   password: CF68213490
-  sni: united-molly.rooster465.autos
+  sni: moral-basilisk.rooster465.autos
   skip-cert-verify: true
   udp: true
-- name: "\U0001F1EF\U0001F1F5 JP 25 TJN"
-  server: easy-barnacle.rooster465.autos
+- name: "\U0001F1F8\U0001F1EC SG 25 TJN"
+  server: grateful-owl.rooster465.autos
   port: 443
   type: trojan
   password: CF68213490
-  sni: easy-barnacle.rooster465.autos
+  sni: grateful-owl.rooster465.autos
   skip-cert-verify: true
   udp: true
-- name: "\U0001F1EF\U0001F1F5 JP 26 TJN"
-  server: upright-rhino.rooster465.autos
+- name: "\U0001F1F8\U0001F1EC SG 26 TJN"
+  server: active-hippo.rooster465.autos
   port: 443
   type: trojan
   password: CF68213490
-  sni: upright-rhino.rooster465.autos
+  sni: active-hippo.rooster465.autos
   skip-cert-verify: true
   udp: true
-- name: "\U0001F1EF\U0001F1F5 JP 27 TJN"
-  server: accurate-frog.rooster465.autos
+- name: "\U0001F1F8\U0001F1EC SG 27 TJN"
+  server: musical-terrier.rooster465.autos
   port: 443
   type: trojan
   password: CF68213490
-  sni: accurate-frog.rooster465.autos
+  sni: musical-terrier.rooster465.autos
   skip-cert-verify: true
   udp: true
-- name: "\U0001F1EF\U0001F1F5 JP 28 TJN"
-  server: composed-sheep.rooster465.autos
+- name: "\U0001F1F8\U0001F1EC SG 28 TJN"
+  server: gentle-raptor.rooster465.autos
   port: 443
   type: trojan
   password: CF68213490
-  sni: composed-sheep.rooster465.autos
+  sni: gentle-raptor.rooster465.autos
   skip-cert-verify: true
   udp: true
-- name: "\U0001F1EF\U0001F1F5 JP 29 TJN"
-  server: eternal-woodcock.rooster465.autos
+- name: "\U0001F1F8\U0001F1EC SG 29 TJN"
+  server: evolving-platypus.rooster465.autos
   port: 443
   type: trojan
   password: CF68213490
-  sni: eternal-woodcock.rooster465.autos
+  sni: evolving-platypus.rooster465.autos
   skip-cert-verify: true
   udp: true
-- name: "\U0001F1EF\U0001F1F5 JP 30 TJN"
-  server: communal-sunbird.rooster465.autos
+- name: "\U0001F1F8\U0001F1EC SG 30 TJN"
+  server: summary-lemming.rooster465.autos
   port: 443
   type: trojan
   password: CF68213490
-  sni: communal-sunbird.rooster465.autos
+  sni: summary-lemming.rooster465.autos
   skip-cert-verify: true
   udp: true
-- name: "\U0001F1EF\U0001F1F5 JP 31 TJN"
-  server: eminent-dogfish.rooster465.autos
+- name: "\U0001F1F8\U0001F1EC SG 31 TJN"
+  server: powerful-troll.rooster465.autos
   port: 443
   type: trojan
   password: CF68213490
-  sni: eminent-dogfish.rooster465.autos
+  sni: powerful-troll.rooster465.autos
   skip-cert-verify: true
   udp: true
 - name: "\U0001F1EF\U0001F1F5 JP 32 TJN"
-  server: darling-mongrel.rooster465.autos
+  server: star-cheetah.rooster465.autos
   port: 443
   type: trojan
   password: CF68213490
-  sni: darling-mongrel.rooster465.autos
+  sni: star-cheetah.rooster465.autos
   skip-cert-verify: true
   udp: true
-- name: "\U0001F1F8\U0001F1EC SG 33 TJN"
-  server: sacred-treefrog.rooster465.autos
+- name: "\U0001F1EF\U0001F1F5 JP 33 TJN"
+  server: caring-wallaby.rooster465.autos
   port: 443
   type: trojan
   password: CF68213490
-  sni: sacred-treefrog.rooster465.autos
+  sni: caring-wallaby.rooster465.autos
   skip-cert-verify: true
   udp: true
-- name: "\U0001F1EF\U0001F1F5 JP 34 TJN"
-  server: definite-ladybird.rooster465.autos
+- name: "\U0001F1F8\U0001F1EC SG 34 TJN"
+  server: learning-wren.rooster465.autos
   port: 443
   type: trojan
   password: CF68213490
-  sni: definite-ladybird.rooster465.autos
+  sni: learning-wren.rooster465.autos
   skip-cert-verify: true
   udp: true
-- name: "\U0001F1EF\U0001F1F5 JP 35 TJN"
-  server: eager-platypus.rooster465.autos
+- name: "\U0001F1F8\U0001F1EC SG 35 TJN"
+  server: prime-buzzard.rooster465.autos
   port: 443
   type: trojan
   password: CF68213490
-  sni: eager-platypus.rooster465.autos
+  sni: prime-buzzard.rooster465.autos
   skip-cert-verify: true
   udp: true
-- name: "\U0001F1EF\U0001F1F5 JP 36 TJN"
-  server: eternal-perch.rooster465.autos
+- name: "\U0001F1F0\U0001F1F7 KR 36 TJN"
+  server: pure-ram.rooster465.autos
   port: 443
   type: trojan
   password: CF68213490
-  sni: eternal-perch.rooster465.autos
+  sni: pure-ram.rooster465.autos
   skip-cert-verify: true
   udp: true
-- name: "\U0001F1EF\U0001F1F5 JP 37 TJN"
-  server: smooth-hornet.rooster465.autos
+- name: "\U0001F1F0\U0001F1F7 KR 37 TJN"
+  server: gentle-mastiff.rooster465.autos
   port: 443
   type: trojan
   password: CF68213490
-  sni: smooth-hornet.rooster465.autos
+  sni: gentle-mastiff.rooster465.autos
   skip-cert-verify: true
   udp: true
-- name: "\U0001F1EF\U0001F1F5 JP 38 TJN"
-  server: loyal-molly.rooster465.autos
+- name: "\U0001F1F8\U0001F1EC SG 38 TJN"
+  server: immense-eagle.rooster465.autos
   port: 443
   type: trojan
   password: CF68213490
-  sni: loyal-molly.rooster465.autos
+  sni: immense-eagle.rooster465.autos
   skip-cert-verify: true
   udp: true
 - name: "\U0001F1EF\U0001F1F5 JP 39 TJN"
-  server: sincere-crappie.rooster465.autos
+  server: 35.72.9.75
   port: 443
   type: trojan
   password: CF68213490
-  sni: sincere-crappie.rooster465.autos
+  sni: caring-wallaby.rooster465.autos
   skip-cert-verify: true
   udp: true
 - name: "\U0001F1F7\U0001F1FA RU 40 SSS"
@@ -14872,7 +14872,7 @@ proxies:
     headers:
       Host: obdii.cfd
   udp: true
-- name: "\U0001F1FA\U0001F1F8 US 1763 VMS"
+- name: "\U0001F1FA\U0001F1F3 UN 1763 VMS"
   server: jahfkjha.cfd
   port: 443
   type: vmess
@@ -17165,7 +17165,7 @@ proxies:
   tls: true
   skip-cert-verify: true
   udp: true
-- name: "\U0001F1FA\U0001F1F8 US 1957 VMS"
+- name: "\U0001F1EF\U0001F1F5 JP 1957 VMS"
   server: vt50k-g01.jp05-6786-vm0.entry.fr0307a.art
   port: 46482
   type: vmess
@@ -17185,7 +17185,7 @@ proxies:
   tls: false
   skip-cert-verify: true
   udp: true
-- name: "\U0001F1FA\U0001F1F8 US 1959 VMS"
+- name: "\U0001F1EF\U0001F1F5 JP 1959 VMS"
   server: oe6wc-g01.jp05-6786-vm0.entry.fr0307a.art
   port: 46482
   type: vmess
@@ -17230,7 +17230,7 @@ proxies:
     headers:
       Host: lol.ps
   udp: true
-- name: "\U0001F1FA\U0001F1F8 US 1963 VMS"
+- name: "\U0001F1EF\U0001F1F5 JP 1963 VMS"
   server: 3wihp-g01.jp05-6786-vm0.entry.fr0307a.art
   port: 46482
   type: vmess
@@ -17869,7 +17869,7 @@ proxies:
   grpc-opts:
     grpc-service-name: /
   udp: true
-- name: "\U0001F1FA\U0001F1F3 UN 2013 VMS"
+- name: "\U0001F1FA\U0001F1F8 US 2013 VMS"
   server: upload.ir
   port: 443
   type: vmess
@@ -17884,7 +17884,7 @@ proxies:
     headers:
       Host: afrhms16v.bestxray.buzz
   udp: true
-- name: "\U0001F1FA\U0001F1F3 UN 2014 VMS"
+- name: "\U0001F1FA\U0001F1F8 US 2014 VMS"
   server: upload.ir
   port: 80
   type: vmess
@@ -17914,7 +17914,7 @@ proxies:
     headers:
       Host: backend.app-browser.org
   udp: true
-- name: "\U0001F1FA\U0001F1F3 UN 2016 VMS"
+- name: "\U0001F1FA\U0001F1F8 US 2016 VMS"
   server: upload.ir
   port: 443
   type: vmess
@@ -20125,7 +20125,7 @@ proxies:
   ws-opts:
     path: /video/u4eCZTxW
   udp: true
-- name: "\U0001F1FA\U0001F1F3 UN 2188 VMS"
+- name: "\U0001F1FA\U0001F1F8 US 2188 VMS"
   server: onea.flha.ru
   port: 2095
   type: vmess
@@ -21117,7 +21117,7 @@ proxies:
   ws-opts:
     path: /
   udp: true
-- name: "\U0001F1FA\U0001F1F3 UN 2263 VMS"
+- name: "\U0001F1FA\U0001F1F8 US 2263 VMS"
   server: fcdn.flha.ru
   port: 2095
   type: vmess
@@ -29255,7 +29255,7 @@ proxies:
   ws-opts:
     path: /
   udp: true
-- name: "\U0001F1FA\U0001F1F8 US 2896 VMS"
+- name: "\U0001F1FA\U0001F1F3 UN 2896 VMS"
   server: fr-a.yuji2022.eu.org
   port: 8880
   type: vmess
@@ -33769,11 +33769,11 @@ proxy-groups:
 - name: automatic
   type: url-test
   proxies:
-  - "\U0001F1EF\U0001F1F5 JP 1 TJN"
-  - "\U0001F1EF\U0001F1F5 JP 2 TJN"
-  - "\U0001F1EF\U0001F1F5 JP 3 TJN"
-  - "\U0001F1EF\U0001F1F5 JP 4 TJN"
-  - "\U0001F1EF\U0001F1F5 JP 5 TJN"
+  - "\U0001F1F8\U0001F1EC SG 1 TJN"
+  - "\U0001F1F8\U0001F1EC SG 2 TJN"
+  - "\U0001F1F8\U0001F1EC SG 3 TJN"
+  - "\U0001F1F8\U0001F1EC SG 4 TJN"
+  - "\U0001F1F8\U0001F1EC SG 5 TJN"
   - "\U0001F1EF\U0001F1F5 JP 6 TJN"
   - "\U0001F1EF\U0001F1F5 JP 7 TJN"
   - "\U0001F1EF\U0001F1F5 JP 8 TJN"
@@ -33786,27 +33786,27 @@ proxy-groups:
   - "\U0001F1EF\U0001F1F5 JP 15 TJN"
   - "\U0001F1EF\U0001F1F5 JP 16 TJN"
   - "\U0001F1EF\U0001F1F5 JP 17 TJN"
-  - "\U0001F1EF\U0001F1F5 JP 18 TJN"
-  - "\U0001F1EF\U0001F1F5 JP 19 TJN"
-  - "\U0001F1EF\U0001F1F5 JP 20 TJN"
-  - "\U0001F1EF\U0001F1F5 JP 21 TJN"
-  - "\U0001F1EF\U0001F1F5 JP 22 TJN"
-  - "\U0001F1EF\U0001F1F5 JP 23 TJN"
-  - "\U0001F1EF\U0001F1F5 JP 24 TJN"
-  - "\U0001F1EF\U0001F1F5 JP 25 TJN"
-  - "\U0001F1EF\U0001F1F5 JP 26 TJN"
-  - "\U0001F1EF\U0001F1F5 JP 27 TJN"
-  - "\U0001F1EF\U0001F1F5 JP 28 TJN"
-  - "\U0001F1EF\U0001F1F5 JP 29 TJN"
-  - "\U0001F1EF\U0001F1F5 JP 30 TJN"
-  - "\U0001F1EF\U0001F1F5 JP 31 TJN"
+  - "\U0001F1F0\U0001F1F7 KR 18 TJN"
+  - "\U0001F1F8\U0001F1EC SG 19 TJN"
+  - "\U0001F1F8\U0001F1EC SG 20 TJN"
+  - "\U0001F1F8\U0001F1EC SG 21 TJN"
+  - "\U0001F1F8\U0001F1EC SG 22 TJN"
+  - "\U0001F1F8\U0001F1EC SG 23 TJN"
+  - "\U0001F1F8\U0001F1EC SG 24 TJN"
+  - "\U0001F1F8\U0001F1EC SG 25 TJN"
+  - "\U0001F1F8\U0001F1EC SG 26 TJN"
+  - "\U0001F1F8\U0001F1EC SG 27 TJN"
+  - "\U0001F1F8\U0001F1EC SG 28 TJN"
+  - "\U0001F1F8\U0001F1EC SG 29 TJN"
+  - "\U0001F1F8\U0001F1EC SG 30 TJN"
+  - "\U0001F1F8\U0001F1EC SG 31 TJN"
   - "\U0001F1EF\U0001F1F5 JP 32 TJN"
-  - "\U0001F1F8\U0001F1EC SG 33 TJN"
-  - "\U0001F1EF\U0001F1F5 JP 34 TJN"
-  - "\U0001F1EF\U0001F1F5 JP 35 TJN"
-  - "\U0001F1EF\U0001F1F5 JP 36 TJN"
-  - "\U0001F1EF\U0001F1F5 JP 37 TJN"
-  - "\U0001F1EF\U0001F1F5 JP 38 TJN"
+  - "\U0001F1EF\U0001F1F5 JP 33 TJN"
+  - "\U0001F1F8\U0001F1EC SG 34 TJN"
+  - "\U0001F1F8\U0001F1EC SG 35 TJN"
+  - "\U0001F1F0\U0001F1F7 KR 36 TJN"
+  - "\U0001F1F0\U0001F1F7 KR 37 TJN"
+  - "\U0001F1F8\U0001F1EC SG 38 TJN"
   - "\U0001F1EF\U0001F1F5 JP 39 TJN"
   - "\U0001F1F7\U0001F1FA RU 40 SSS"
   - "\U0001F1FA\U0001F1E6 UA 41 SSS"
@@ -35531,7 +35531,7 @@ proxy-groups:
   - "\U0001F1FA\U0001F1F3 UN 1760 VMS"
   - "\U0001F1FA\U0001F1F3 UN 1761 VMS"
   - "\U0001F1FA\U0001F1F8 US 1762 VMS"
-  - "\U0001F1FA\U0001F1F8 US 1763 VMS"
+  - "\U0001F1FA\U0001F1F3 UN 1763 VMS"
   - "\U0001F1FA\U0001F1F3 UN 1764 VMS"
   - "\U0001F1E6\U0001F1EA AE 1765 VMS"
   - "\U0001F1E6\U0001F1EA AE 1766 VMS"
@@ -35725,13 +35725,13 @@ proxy-groups:
   - "\U0001F1EF\U0001F1F5 JP 1954 VMS"
   - "\U0001F1EF\U0001F1F5 JP 1955 VMS"
   - "\U0001F1EF\U0001F1F5 JP 1956 VMS"
-  - "\U0001F1FA\U0001F1F8 US 1957 VMS"
+  - "\U0001F1EF\U0001F1F5 JP 1957 VMS"
   - "\U0001F1EF\U0001F1F5 JP 1958 VMS"
-  - "\U0001F1FA\U0001F1F8 US 1959 VMS"
+  - "\U0001F1EF\U0001F1F5 JP 1959 VMS"
   - "\U0001F1EF\U0001F1F5 JP 1960 VMS"
   - "\U0001F1EF\U0001F1F5 JP 1961 VMS"
   - "\U0001F1F8\U0001F1EC SG 1962 VMS"
-  - "\U0001F1FA\U0001F1F8 US 1963 VMS"
+  - "\U0001F1EF\U0001F1F5 JP 1963 VMS"
   - "\U0001F1E9\U0001F1EA DE 1964 VMS"
   - "\U0001F1F0\U0001F1F7 KR 1965 VMS"
   - "\U0001F1FA\U0001F1F8 US 1966 VMS"
@@ -35781,10 +35781,10 @@ proxy-groups:
   - "\U0001F1F3\U0001F1F1 NL 2010 VMS"
   - "\U0001F1F3\U0001F1F1 NL 2011 VMS"
   - "\U0001F1F3\U0001F1F1 NL 2012 VMS"
-  - "\U0001F1FA\U0001F1F3 UN 2013 VMS"
-  - "\U0001F1FA\U0001F1F3 UN 2014 VMS"
+  - "\U0001F1FA\U0001F1F8 US 2013 VMS"
+  - "\U0001F1FA\U0001F1F8 US 2014 VMS"
   - "\U0001F1FA\U0001F1F3 UN 2015 VMS"
-  - "\U0001F1FA\U0001F1F3 UN 2016 VMS"
+  - "\U0001F1FA\U0001F1F8 US 2016 VMS"
   - "\U0001F1F3\U0001F1F1 NL 2017 VMS"
   - "\U0001F1F3\U0001F1F1 NL 2018 VMS"
   - "\U0001F1FA\U0001F1F3 UN 2019 VMS"
@@ -35956,7 +35956,7 @@ proxy-groups:
   - "\U0001F1FA\U0001F1F3 UN 2185 VMS"
   - "\U0001F1FA\U0001F1F3 UN 2186 VMS"
   - "\U0001F1FA\U0001F1F3 UN 2187 VMS"
-  - "\U0001F1FA\U0001F1F3 UN 2188 VMS"
+  - "\U0001F1FA\U0001F1F8 US 2188 VMS"
   - "\U0001F1FA\U0001F1F8 US 2189 VMS"
   - "\U0001F1FA\U0001F1F3 UN 2190 VMS"
   - "\U0001F1FA\U0001F1F3 UN 2191 VMS"
@@ -36031,7 +36031,7 @@ proxy-groups:
   - "\U0001F1FA\U0001F1F8 US 2260 VMS"
   - "\U0001F1FA\U0001F1F8 US 2261 VMS"
   - "\U0001F1FA\U0001F1F3 UN 2262 VMS"
-  - "\U0001F1FA\U0001F1F3 UN 2263 VMS"
+  - "\U0001F1FA\U0001F1F8 US 2263 VMS"
   - "\U0001F1FA\U0001F1F3 UN 2264 VMS"
   - "\U0001F1FA\U0001F1F3 UN 2265 VMS"
   - "\U0001F1FA\U0001F1F3 UN 2266 VMS"
@@ -36664,7 +36664,7 @@ proxy-groups:
   - "\U0001F1FA\U0001F1F3 UN 2893 VMS"
   - "\U0001F1FA\U0001F1F3 UN 2894 VMS"
   - "\U0001F1FA\U0001F1F3 UN 2895 VMS"
-  - "\U0001F1FA\U0001F1F8 US 2896 VMS"
+  - "\U0001F1FA\U0001F1F3 UN 2896 VMS"
   - "\U0001F1FA\U0001F1F3 UN 2897 VMS"
   - "\U0001F1FA\U0001F1F3 UN 2898 VMS"
   - "\U0001F1FA\U0001F1F3 UN 2899 VMS"
@@ -37022,11 +37022,11 @@ proxy-groups:
   type: select
   proxies:
   - automatic
-  - "\U0001F1EF\U0001F1F5 JP 1 TJN"
-  - "\U0001F1EF\U0001F1F5 JP 2 TJN"
-  - "\U0001F1EF\U0001F1F5 JP 3 TJN"
-  - "\U0001F1EF\U0001F1F5 JP 4 TJN"
-  - "\U0001F1EF\U0001F1F5 JP 5 TJN"
+  - "\U0001F1F8\U0001F1EC SG 1 TJN"
+  - "\U0001F1F8\U0001F1EC SG 2 TJN"
+  - "\U0001F1F8\U0001F1EC SG 3 TJN"
+  - "\U0001F1F8\U0001F1EC SG 4 TJN"
+  - "\U0001F1F8\U0001F1EC SG 5 TJN"
   - "\U0001F1EF\U0001F1F5 JP 6 TJN"
   - "\U0001F1EF\U0001F1F5 JP 7 TJN"
   - "\U0001F1EF\U0001F1F5 JP 8 TJN"
@@ -37039,27 +37039,27 @@ proxy-groups:
   - "\U0001F1EF\U0001F1F5 JP 15 TJN"
   - "\U0001F1EF\U0001F1F5 JP 16 TJN"
   - "\U0001F1EF\U0001F1F5 JP 17 TJN"
-  - "\U0001F1EF\U0001F1F5 JP 18 TJN"
-  - "\U0001F1EF\U0001F1F5 JP 19 TJN"
-  - "\U0001F1EF\U0001F1F5 JP 20 TJN"
-  - "\U0001F1EF\U0001F1F5 JP 21 TJN"
-  - "\U0001F1EF\U0001F1F5 JP 22 TJN"
-  - "\U0001F1EF\U0001F1F5 JP 23 TJN"
-  - "\U0001F1EF\U0001F1F5 JP 24 TJN"
-  - "\U0001F1EF\U0001F1F5 JP 25 TJN"
-  - "\U0001F1EF\U0001F1F5 JP 26 TJN"
-  - "\U0001F1EF\U0001F1F5 JP 27 TJN"
-  - "\U0001F1EF\U0001F1F5 JP 28 TJN"
-  - "\U0001F1EF\U0001F1F5 JP 29 TJN"
-  - "\U0001F1EF\U0001F1F5 JP 30 TJN"
-  - "\U0001F1EF\U0001F1F5 JP 31 TJN"
+  - "\U0001F1F0\U0001F1F7 KR 18 TJN"
+  - "\U0001F1F8\U0001F1EC SG 19 TJN"
+  - "\U0001F1F8\U0001F1EC SG 20 TJN"
+  - "\U0001F1F8\U0001F1EC SG 21 TJN"
+  - "\U0001F1F8\U0001F1EC SG 22 TJN"
+  - "\U0001F1F8\U0001F1EC SG 23 TJN"
+  - "\U0001F1F8\U0001F1EC SG 24 TJN"
+  - "\U0001F1F8\U0001F1EC SG 25 TJN"
+  - "\U0001F1F8\U0001F1EC SG 26 TJN"
+  - "\U0001F1F8\U0001F1EC SG 27 TJN"
+  - "\U0001F1F8\U0001F1EC SG 28 TJN"
+  - "\U0001F1F8\U0001F1EC SG 29 TJN"
+  - "\U0001F1F8\U0001F1EC SG 30 TJN"
+  - "\U0001F1F8\U0001F1EC SG 31 TJN"
   - "\U0001F1EF\U0001F1F5 JP 32 TJN"
-  - "\U0001F1F8\U0001F1EC SG 33 TJN"
-  - "\U0001F1EF\U0001F1F5 JP 34 TJN"
-  - "\U0001F1EF\U0001F1F5 JP 35 TJN"
-  - "\U0001F1EF\U0001F1F5 JP 36 TJN"
-  - "\U0001F1EF\U0001F1F5 JP 37 TJN"
-  - "\U0001F1EF\U0001F1F5 JP 38 TJN"
+  - "\U0001F1EF\U0001F1F5 JP 33 TJN"
+  - "\U0001F1F8\U0001F1EC SG 34 TJN"
+  - "\U0001F1F8\U0001F1EC SG 35 TJN"
+  - "\U0001F1F0\U0001F1F7 KR 36 TJN"
+  - "\U0001F1F0\U0001F1F7 KR 37 TJN"
+  - "\U0001F1F8\U0001F1EC SG 38 TJN"
   - "\U0001F1EF\U0001F1F5 JP 39 TJN"
   - "\U0001F1F7\U0001F1FA RU 40 SSS"
   - "\U0001F1FA\U0001F1E6 UA 41 SSS"
@@ -38784,7 +38784,7 @@ proxy-groups:
   - "\U0001F1FA\U0001F1F3 UN 1760 VMS"
   - "\U0001F1FA\U0001F1F3 UN 1761 VMS"
   - "\U0001F1FA\U0001F1F8 US 1762 VMS"
-  - "\U0001F1FA\U0001F1F8 US 1763 VMS"
+  - "\U0001F1FA\U0001F1F3 UN 1763 VMS"
   - "\U0001F1FA\U0001F1F3 UN 1764 VMS"
   - "\U0001F1E6\U0001F1EA AE 1765 VMS"
   - "\U0001F1E6\U0001F1EA AE 1766 VMS"
@@ -38978,13 +38978,13 @@ proxy-groups:
   - "\U0001F1EF\U0001F1F5 JP 1954 VMS"
   - "\U0001F1EF\U0001F1F5 JP 1955 VMS"
   - "\U0001F1EF\U0001F1F5 JP 1956 VMS"
-  - "\U0001F1FA\U0001F1F8 US 1957 VMS"
+  - "\U0001F1EF\U0001F1F5 JP 1957 VMS"
   - "\U0001F1EF\U0001F1F5 JP 1958 VMS"
-  - "\U0001F1FA\U0001F1F8 US 1959 VMS"
+  - "\U0001F1EF\U0001F1F5 JP 1959 VMS"
   - "\U0001F1EF\U0001F1F5 JP 1960 VMS"
   - "\U0001F1EF\U0001F1F5 JP 1961 VMS"
   - "\U0001F1F8\U0001F1EC SG 1962 VMS"
-  - "\U0001F1FA\U0001F1F8 US 1963 VMS"
+  - "\U0001F1EF\U0001F1F5 JP 1963 VMS"
   - "\U0001F1E9\U0001F1EA DE 1964 VMS"
   - "\U0001F1F0\U0001F1F7 KR 1965 VMS"
   - "\U0001F1FA\U0001F1F8 US 1966 VMS"
@@ -39034,10 +39034,10 @@ proxy-groups:
   - "\U0001F1F3\U0001F1F1 NL 2010 VMS"
   - "\U0001F1F3\U0001F1F1 NL 2011 VMS"
   - "\U0001F1F3\U0001F1F1 NL 2012 VMS"
-  - "\U0001F1FA\U0001F1F3 UN 2013 VMS"
-  - "\U0001F1FA\U0001F1F3 UN 2014 VMS"
+  - "\U0001F1FA\U0001F1F8 US 2013 VMS"
+  - "\U0001F1FA\U0001F1F8 US 2014 VMS"
   - "\U0001F1FA\U0001F1F3 UN 2015 VMS"
-  - "\U0001F1FA\U0001F1F3 UN 2016 VMS"
+  - "\U0001F1FA\U0001F1F8 US 2016 VMS"
   - "\U0001F1F3\U0001F1F1 NL 2017 VMS"
   - "\U0001F1F3\U0001F1F1 NL 2018 VMS"
   - "\U0001F1FA\U0001F1F3 UN 2019 VMS"
@@ -39209,7 +39209,7 @@ proxy-groups:
   - "\U0001F1FA\U0001F1F3 UN 2185 VMS"
   - "\U0001F1FA\U0001F1F3 UN 2186 VMS"
   - "\U0001F1FA\U0001F1F3 UN 2187 VMS"
-  - "\U0001F1FA\U0001F1F3 UN 2188 VMS"
+  - "\U0001F1FA\U0001F1F8 US 2188 VMS"
   - "\U0001F1FA\U0001F1F8 US 2189 VMS"
   - "\U0001F1FA\U0001F1F3 UN 2190 VMS"
   - "\U0001F1FA\U0001F1F3 UN 2191 VMS"
@@ -39284,7 +39284,7 @@ proxy-groups:
   - "\U0001F1FA\U0001F1F8 US 2260 VMS"
   - "\U0001F1FA\U0001F1F8 US 2261 VMS"
   - "\U0001F1FA\U0001F1F3 UN 2262 VMS"
-  - "\U0001F1FA\U0001F1F3 UN 2263 VMS"
+  - "\U0001F1FA\U0001F1F8 US 2263 VMS"
   - "\U0001F1FA\U0001F1F3 UN 2264 VMS"
   - "\U0001F1FA\U0001F1F3 UN 2265 VMS"
   - "\U0001F1FA\U0001F1F3 UN 2266 VMS"
@@ -39917,7 +39917,7 @@ proxy-groups:
   - "\U0001F1FA\U0001F1F3 UN 2893 VMS"
   - "\U0001F1FA\U0001F1F3 UN 2894 VMS"
   - "\U0001F1FA\U0001F1F3 UN 2895 VMS"
-  - "\U0001F1FA\U0001F1F8 US 2896 VMS"
+  - "\U0001F1FA\U0001F1F3 UN 2896 VMS"
   - "\U0001F1FA\U0001F1F3 UN 2897 VMS"
   - "\U0001F1FA\U0001F1F3 UN 2898 VMS"
   - "\U0001F1FA\U0001F1F3 UN 2899 VMS"
