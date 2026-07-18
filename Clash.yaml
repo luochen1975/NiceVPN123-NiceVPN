@@ -196,13 +196,13 @@ dns:
       - +.googleapis.com
       - +.gvt1.com
 proxies:
+  - {name: UA 1 → tg@nicevpn123, server: 82.117.225.216, port: 443, type: trojan, password: XG59623478, sni: concise-buck.rooster465.autos, skip-cert-verify: true, udp: true}
+  - {name: 🇪🇸 ES 1 → tg@nicevpn123, server: 193.148.19.213, port: 52794, type: trojan, password: 2eutknankxtbgkwcajzt, sni: 193.148.19.213, skip-cert-verify: true, udp: true}
   - {name: 🇯🇵 JP 1 → tg@nicevpn123, server: 54.238.245.134, port: 24397, type: trojan, password: BxceQaOe, sni: t.me%252Fripaojiedian, skip-cert-verify: true, udp: true}
+  - {name: 🇳🇱 NL 1 → tg@nicevpn123, server: 188.164.248.122, port: 443, type: trojan, password: c206d543-023d-46cc-9d5a-1f0f2fc16323, sni: space.byu.id.yxls.eu.cc, skip-cert-verify: true, network: ws, ws-opts: {path: "%2Fin-pdr", headers: {Host: space.byu.id.yxls.eu.cc}}, udp: true}
   - {name: 🇵🇱 PL 1 → tg@nicevpn123, server: 95.40.52.88, port: 48738, type: trojan, password: b490740312aedb5f9f6b84c7aebd08c0, sni: www.nintendogames.net, skip-cert-verify: true, udp: true}
-  - {name: 🇺🇸 US 1 → tg@nicevpn123, server: 16.163.145.248, port: 7674, type: trojan, password: BxceQaOe, sni: t.me%2Fripaojiedian, skip-cert-verify: true, udp: true}
+  - {name: 🇺🇸 US 1 → tg@nicevpn123, server: 54.46.125.103, port: 50115, type: trojan, password: BxceQaOe, sni: t.me%2Fripaojiedian, skip-cert-verify: true, udp: true}
   - {name: 🇺🇸 US 2 → tg@nicevpn123, server: 54.46.125.103, port: 32434, type: trojan, password: BxceQaOe, sni: t.me%252Fripaojiedian, skip-cert-verify: true, udp: true}
-  - {name: 🇺🇸 US 3 → tg@nicevpn123, server: 104.16.147.104, port: 443, type: trojan, password: humanity, sni: www.creationlong.org, skip-cert-verify: true, network: ws, ws-opts: {path: "%2Fassignment", headers: {Host: www.creationlong.org}}, udp: true}
-  - {name: 🇺🇸 US 4 → tg@nicevpn123, server: 16.163.108.33, port: 17005, type: trojan, password: b490740312aedb5f9f6b84c7aebd08c0, sni: www.nintendogames.net, skip-cert-verify: true, udp: true}
-  - {name: 🇺🇸 US 5 → tg@nicevpn123, server: 16.163.108.33, port: 49277, type: trojan, password: b490740312aedb5f9f6b84c7aebd08c0, sni: www.nintendogames.net, skip-cert-verify: true, udp: true}
 proxy-groups:
   - name: 🌐 节点选择
     type: select
@@ -220,26 +220,26 @@ proxy-groups:
   - name: ✋ 手动选择
     type: select
     proxies:
+      - UA 1 → tg@nicevpn123
+      - 🇪🇸 ES 1 → tg@nicevpn123
       - 🇯🇵 JP 1 → tg@nicevpn123
+      - 🇳🇱 NL 1 → tg@nicevpn123
       - 🇵🇱 PL 1 → tg@nicevpn123
       - 🇺🇸 US 1 → tg@nicevpn123
       - 🇺🇸 US 2 → tg@nicevpn123
-      - 🇺🇸 US 3 → tg@nicevpn123
-      - 🇺🇸 US 4 → tg@nicevpn123
-      - 🇺🇸 US 5 → tg@nicevpn123
   - name: 💡 自动选择
     type: url-test
     url: https://www.google.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
+      - UA 1 → tg@nicevpn123
+      - 🇪🇸 ES 1 → tg@nicevpn123
       - 🇯🇵 JP 1 → tg@nicevpn123
+      - 🇳🇱 NL 1 → tg@nicevpn123
       - 🇵🇱 PL 1 → tg@nicevpn123
       - 🇺🇸 US 1 → tg@nicevpn123
       - 🇺🇸 US 2 → tg@nicevpn123
-      - 🇺🇸 US 3 → tg@nicevpn123
-      - 🇺🇸 US 4 → tg@nicevpn123
-      - 🇺🇸 US 5 → tg@nicevpn123
   - name: 🇭🇰 香港节点
     type: url-test
     url: https://www.google.com/generate_204
@@ -262,9 +262,6 @@ proxy-groups:
     proxies:
       - 🇺🇸 US 1 → tg@nicevpn123
       - 🇺🇸 US 2 → tg@nicevpn123
-      - 🇺🇸 US 3 → tg@nicevpn123
-      - 🇺🇸 US 4 → tg@nicevpn123
-      - 🇺🇸 US 5 → tg@nicevpn123
   - name: 🇹🇼 台湾节点
     type: url-test
     url: https://www.google.com/generate_204
@@ -289,6 +286,9 @@ proxy-groups:
   - name: 🌍 其他地区
     type: select
     proxies:
+      - UA 1 → tg@nicevpn123
+      - 🇪🇸 ES 1 → tg@nicevpn123
+      - 🇳🇱 NL 1 → tg@nicevpn123
       - 🇵🇱 PL 1 → tg@nicevpn123
   - name: 🪜 故障转移
     type: fallback
@@ -296,13 +296,13 @@ proxy-groups:
     interval: 300
     tolerance: 50
     proxies:
+      - UA 1 → tg@nicevpn123
+      - 🇪🇸 ES 1 → tg@nicevpn123
       - 🇯🇵 JP 1 → tg@nicevpn123
+      - 🇳🇱 NL 1 → tg@nicevpn123
       - 🇵🇱 PL 1 → tg@nicevpn123
       - 🇺🇸 US 1 → tg@nicevpn123
       - 🇺🇸 US 2 → tg@nicevpn123
-      - 🇺🇸 US 3 → tg@nicevpn123
-      - 🇺🇸 US 4 → tg@nicevpn123
-      - 🇺🇸 US 5 → tg@nicevpn123
   - name: 👉 国内网站
     type: select
     proxies:
