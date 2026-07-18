@@ -196,52 +196,13 @@ dns:
       - +.googleapis.com
       - +.gvt1.com
 proxies:
-  - {name: BE 1 → tg@nicevpn123, server: golden-kangaroo.rooster465.autos, port: 443, type: trojan, password: NQ26071394, sni: golden-kangaroo.rooster465.autos, skip-cert-verify: true, udp: true}
-  - {name: IE 1 → tg@nicevpn123, server: fun-labrador.rooster465.autos, port: 443, type: trojan, password: NQ26071394, sni: fun-labrador.rooster465.autos, skip-cert-verify: true, udp: true}
-  - {name: 🇨🇦 CA 1 → tg@nicevpn123, server: verified-ringtail.rooster465.autos, port: 443, type: trojan, password: NQ26071394, sni: verified-ringtail.rooster465.autos, skip-cert-verify: true, udp: true}
-  - {name: 🇬🇧 GB 1 → tg@nicevpn123, server: 82.38.31.46, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: oZIoA69Q8yhcQV8ka3Pa3A, udp: true}
-  - {name: 🇯🇵 JP 1 → tg@nicevpn123, server: flexible-gannet.rooster465.autos, port: 443, type: trojan, password: NQ26071394, sni: flexible-gannet.rooster465.autos, skip-cert-verify: true, udp: true}
-  - {name: 🇯🇵 JP 10 → tg@nicevpn123, server: prime-quail.rooster465.autos, port: 443, type: trojan, password: NQ26071394, sni: prime-quail.rooster465.autos, skip-cert-verify: true, udp: true}
-  - {name: 🇯🇵 JP 11 → tg@nicevpn123, server: real-ewe.rooster465.autos, port: 443, type: trojan, password: NQ26071394, sni: real-ewe.rooster465.autos, skip-cert-verify: true, udp: true}
-  - {name: 🇯🇵 JP 12 → tg@nicevpn123, server: amusing-grub.rooster465.autos, port: 443, type: trojan, password: NQ26071394, sni: amusing-grub.rooster465.autos, skip-cert-verify: true, udp: true}
-  - {name: 🇯🇵 JP 13 → tg@nicevpn123, server: firm-krill.rooster465.autos, port: 443, type: trojan, password: NQ26071394, sni: firm-krill.rooster465.autos, skip-cert-verify: true, udp: true}
-  - {name: 🇯🇵 JP 14 → tg@nicevpn123, server: alert-wren.rooster465.autos, port: 443, type: trojan, password: NQ26071394, sni: alert-wren.rooster465.autos, skip-cert-verify: true, udp: true}
-  - {name: 🇯🇵 JP 15 → tg@nicevpn123, server: beloved-crow.rooster465.autos, port: 443, type: trojan, password: NQ26071394, sni: beloved-crow.rooster465.autos, skip-cert-verify: true, udp: true}
-  - {name: 🇯🇵 JP 16 → tg@nicevpn123, server: capable-jay.rooster465.autos, port: 443, type: trojan, password: NQ26071394, sni: capable-jay.rooster465.autos, skip-cert-verify: true, udp: true}
-  - {name: 🇯🇵 JP 17 → tg@nicevpn123, server: guided-pelican.rooster465.autos, port: 443, type: trojan, password: NQ26071394, sni: guided-pelican.rooster465.autos, skip-cert-verify: true, udp: true}
-  - {name: 🇯🇵 JP 18 → tg@nicevpn123, server: infinite-killdeer.rooster465.autos, port: 443, type: trojan, password: NQ26071394, sni: infinite-killdeer.rooster465.autos, skip-cert-verify: true, udp: true}
-  - {name: 🇯🇵 JP 19 → tg@nicevpn123, server: upright-caribou.rooster465.autos, port: 443, type: trojan, password: NQ26071394, sni: upright-caribou.rooster465.autos, skip-cert-verify: true, udp: true}
-  - {name: 🇯🇵 JP 2 → tg@nicevpn123, server: fit-marten.rooster465.autos, port: 443, type: trojan, password: NQ26071394, sni: fit-marten.rooster465.autos, skip-cert-verify: true, udp: true}
-  - {name: 🇯🇵 JP 20 → tg@nicevpn123, server: immune-grackle.rooster465.autos, port: 443, type: trojan, password: NQ26071394, sni: immune-grackle.rooster465.autos, skip-cert-verify: true, udp: true}
-  - {name: 🇯🇵 JP 21 → tg@nicevpn123, server: working-tomcat.rooster465.autos, port: 443, type: trojan, password: NQ26071394, sni: working-tomcat.rooster465.autos, skip-cert-verify: true, udp: true}
-  - {name: 🇯🇵 JP 22 → tg@nicevpn123, server: new-eagle.rooster465.autos, port: 443, type: trojan, password: NQ26071394, sni: new-eagle.rooster465.autos, skip-cert-verify: true, udp: true}
-  - {name: 🇯🇵 JP 23 → tg@nicevpn123, server: modest-amoeba.rooster465.autos, port: 443, type: trojan, password: NQ26071394, sni: modest-amoeba.rooster465.autos, skip-cert-verify: true, udp: true}
-  - {name: 🇯🇵 JP 24 → tg@nicevpn123, server: genuine-cougar.rooster465.autos, port: 443, type: trojan, password: NQ26071394, sni: genuine-cougar.rooster465.autos, skip-cert-verify: true, udp: true}
-  - {name: 🇯🇵 JP 25 → tg@nicevpn123, server: capable-baboon.rooster465.autos, port: 443, type: trojan, password: NQ26071394, sni: capable-baboon.rooster465.autos, skip-cert-verify: true, udp: true}
-  - {name: 🇯🇵 JP 26 → tg@nicevpn123, server: select-ferret.rooster465.autos, port: 443, type: trojan, password: NQ26071394, sni: select-ferret.rooster465.autos, skip-cert-verify: true, udp: true}
-  - {name: 🇯🇵 JP 27 → tg@nicevpn123, server: hot-tapir.rooster465.autos, port: 443, type: trojan, password: NQ26071394, sni: hot-tapir.rooster465.autos, skip-cert-verify: true, udp: true}
-  - {name: 🇯🇵 JP 3 → tg@nicevpn123, server: better-molly.rooster465.autos, port: 443, type: trojan, password: NQ26071394, sni: better-molly.rooster465.autos, skip-cert-verify: true, udp: true}
-  - {name: 🇯🇵 JP 4 → tg@nicevpn123, server: magical-prawn.rooster465.autos, port: 443, type: trojan, password: NQ26071394, sni: magical-prawn.rooster465.autos, skip-cert-verify: true, udp: true}
-  - {name: 🇯🇵 JP 5 → tg@nicevpn123, server: helped-jennet.rooster465.autos, port: 443, type: trojan, password: NQ26071394, sni: helped-jennet.rooster465.autos, skip-cert-verify: true, udp: true}
-  - {name: 🇯🇵 JP 6 → tg@nicevpn123, server: saving-drake.rooster465.autos, port: 443, type: trojan, password: NQ26071394, sni: saving-drake.rooster465.autos, skip-cert-verify: true, udp: true}
-  - {name: 🇯🇵 JP 7 → tg@nicevpn123, server: calm-muskrat.rooster465.autos, port: 443, type: trojan, password: NQ26071394, sni: calm-muskrat.rooster465.autos, skip-cert-verify: true, udp: true}
-  - {name: 🇯🇵 JP 8 → tg@nicevpn123, server: picked-guinea.rooster465.autos, port: 443, type: trojan, password: NQ26071394, sni: picked-guinea.rooster465.autos, skip-cert-verify: true, udp: true}
-  - {name: 🇯🇵 JP 9 → tg@nicevpn123, server: joint-ewe.rooster465.autos, port: 443, type: trojan, password: NQ26071394, sni: joint-ewe.rooster465.autos, skip-cert-verify: true, udp: true}
-  - {name: 🇰🇷 KR 1 → tg@nicevpn123, server: mighty-lemming.rooster465.autos, port: 443, type: trojan, password: NQ26071394, sni: mighty-lemming.rooster465.autos, skip-cert-verify: true, udp: true}
-  - {name: 🇰🇷 KR 2 → tg@nicevpn123, server: inviting-ferret.rooster465.autos, port: 443, type: trojan, password: NQ26071394, sni: inviting-ferret.rooster465.autos, skip-cert-verify: true, udp: true}
-  - {name: 🇰🇷 KR 3 → tg@nicevpn123, server: merry-falcon.rooster465.autos, port: 443, type: trojan, password: NQ26071394, sni: merry-falcon.rooster465.autos, skip-cert-verify: true, udp: true}
-  - {name: 🇳🇱 NL 1 → tg@nicevpn123, server: 188.164.248.122, port: 443, type: trojan, password: c206d543-023d-46cc-9d5a-1f0f2fc16323, sni: space.byu.id.yxls.eu.cc, skip-cert-verify: true, network: ws, ws-opts: {path: "%2Fin-pdr", headers: {Host: space.byu.id.yxls.eu.cc}}, udp: true}
-  - {name: 🇸🇬 SG 1 → tg@nicevpn123, server: proper-marlin.rooster465.autos, port: 443, type: trojan, password: NQ26071394, sni: proper-marlin.rooster465.autos, skip-cert-verify: true, udp: true}
-  - {name: 🇸🇬 SG 2 → tg@nicevpn123, server: usable-dogfish.rooster465.autos, port: 443, type: trojan, password: NQ26071394, sni: usable-dogfish.rooster465.autos, skip-cert-verify: true, udp: true}
-  - {name: 🇸🇬 SG 3 → tg@nicevpn123, server: eminent-hagfish.rooster465.autos, port: 443, type: trojan, password: NQ26071394, sni: eminent-hagfish.rooster465.autos, skip-cert-verify: true, udp: true}
-  - {name: 🇸🇬 SG 4 → tg@nicevpn123, server: helping-newt.rooster465.autos, port: 443, type: trojan, password: NQ26071394, sni: helping-newt.rooster465.autos, skip-cert-verify: true, udp: true}
-  - {name: 🇺🇸 US 1 → tg@nicevpn123, server: expert-muskrat.rooster465.autos, port: 443, type: trojan, password: NQ26071394, sni: expert-muskrat.rooster465.autos, skip-cert-verify: true, udp: true}
-  - {name: 🇺🇸 US 2 → tg@nicevpn123, server: one-dove.rooster465.autos, port: 443, type: trojan, password: NQ26071394, sni: one-dove.rooster465.autos, skip-cert-verify: true, udp: true}
-  - {name: 🇺🇸 US 3 → tg@nicevpn123, server: accurate-cat.rooster465.autos, port: 443, type: trojan, password: NQ26071394, sni: accurate-cat.rooster465.autos, skip-cert-verify: true, udp: true}
-  - {name: 🇺🇸 US 4 → tg@nicevpn123, server: alert-monster.rooster465.autos, port: 443, type: trojan, password: CF68213490, sni: alert-monster.rooster465.autos, skip-cert-verify: true, udp: true}
-  - {name: 🇺🇸 US 5 → tg@nicevpn123, server: allowing-ram.rooster465.autos, port: 443, type: trojan, password: NQ26071394, sni: allowing-ram.rooster465.autos, skip-cert-verify: true, udp: true}
-  - {name: 🇺🇸 US 6 → tg@nicevpn123, server: warm-bass.rooster465.autos, port: 443, type: trojan, password: NQ26071394, sni: warm-bass.rooster465.autos, skip-cert-verify: true, udp: true}
-  - {name: 🇺🇸 US 7 → tg@nicevpn123, server: musical-mouse.rooster465.autos, port: 443, type: trojan, password: NQ26071394, sni: musical-mouse.rooster465.autos, skip-cert-verify: true, udp: true}
+  - {name: 🇯🇵 JP 1 → tg@nicevpn123, server: 54.238.245.134, port: 24397, type: trojan, password: BxceQaOe, sni: t.me%252Fripaojiedian, skip-cert-verify: true, udp: true}
+  - {name: 🇵🇱 PL 1 → tg@nicevpn123, server: 95.40.52.88, port: 48738, type: trojan, password: b490740312aedb5f9f6b84c7aebd08c0, sni: www.nintendogames.net, skip-cert-verify: true, udp: true}
+  - {name: 🇺🇸 US 1 → tg@nicevpn123, server: 16.163.145.248, port: 7674, type: trojan, password: BxceQaOe, sni: t.me%2Fripaojiedian, skip-cert-verify: true, udp: true}
+  - {name: 🇺🇸 US 2 → tg@nicevpn123, server: 54.46.125.103, port: 32434, type: trojan, password: BxceQaOe, sni: t.me%252Fripaojiedian, skip-cert-verify: true, udp: true}
+  - {name: 🇺🇸 US 3 → tg@nicevpn123, server: 104.16.147.104, port: 443, type: trojan, password: humanity, sni: www.creationlong.org, skip-cert-verify: true, network: ws, ws-opts: {path: "%2Fassignment", headers: {Host: www.creationlong.org}}, udp: true}
+  - {name: 🇺🇸 US 4 → tg@nicevpn123, server: 16.163.108.33, port: 17005, type: trojan, password: b490740312aedb5f9f6b84c7aebd08c0, sni: www.nintendogames.net, skip-cert-verify: true, udp: true}
+  - {name: 🇺🇸 US 5 → tg@nicevpn123, server: 16.163.108.33, port: 49277, type: trojan, password: b490740312aedb5f9f6b84c7aebd08c0, sni: www.nintendogames.net, skip-cert-verify: true, udp: true}
 proxy-groups:
   - name: 🌐 节点选择
     type: select
@@ -259,104 +220,26 @@ proxy-groups:
   - name: ✋ 手动选择
     type: select
     proxies:
-      - BE 1 → tg@nicevpn123
-      - IE 1 → tg@nicevpn123
-      - 🇨🇦 CA 1 → tg@nicevpn123
-      - 🇬🇧 GB 1 → tg@nicevpn123
       - 🇯🇵 JP 1 → tg@nicevpn123
-      - 🇯🇵 JP 10 → tg@nicevpn123
-      - 🇯🇵 JP 11 → tg@nicevpn123
-      - 🇯🇵 JP 12 → tg@nicevpn123
-      - 🇯🇵 JP 13 → tg@nicevpn123
-      - 🇯🇵 JP 14 → tg@nicevpn123
-      - 🇯🇵 JP 15 → tg@nicevpn123
-      - 🇯🇵 JP 16 → tg@nicevpn123
-      - 🇯🇵 JP 17 → tg@nicevpn123
-      - 🇯🇵 JP 18 → tg@nicevpn123
-      - 🇯🇵 JP 19 → tg@nicevpn123
-      - 🇯🇵 JP 2 → tg@nicevpn123
-      - 🇯🇵 JP 20 → tg@nicevpn123
-      - 🇯🇵 JP 21 → tg@nicevpn123
-      - 🇯🇵 JP 22 → tg@nicevpn123
-      - 🇯🇵 JP 23 → tg@nicevpn123
-      - 🇯🇵 JP 24 → tg@nicevpn123
-      - 🇯🇵 JP 25 → tg@nicevpn123
-      - 🇯🇵 JP 26 → tg@nicevpn123
-      - 🇯🇵 JP 27 → tg@nicevpn123
-      - 🇯🇵 JP 3 → tg@nicevpn123
-      - 🇯🇵 JP 4 → tg@nicevpn123
-      - 🇯🇵 JP 5 → tg@nicevpn123
-      - 🇯🇵 JP 6 → tg@nicevpn123
-      - 🇯🇵 JP 7 → tg@nicevpn123
-      - 🇯🇵 JP 8 → tg@nicevpn123
-      - 🇯🇵 JP 9 → tg@nicevpn123
-      - 🇰🇷 KR 1 → tg@nicevpn123
-      - 🇰🇷 KR 2 → tg@nicevpn123
-      - 🇰🇷 KR 3 → tg@nicevpn123
-      - 🇳🇱 NL 1 → tg@nicevpn123
-      - 🇸🇬 SG 1 → tg@nicevpn123
-      - 🇸🇬 SG 2 → tg@nicevpn123
-      - 🇸🇬 SG 3 → tg@nicevpn123
-      - 🇸🇬 SG 4 → tg@nicevpn123
+      - 🇵🇱 PL 1 → tg@nicevpn123
       - 🇺🇸 US 1 → tg@nicevpn123
       - 🇺🇸 US 2 → tg@nicevpn123
       - 🇺🇸 US 3 → tg@nicevpn123
       - 🇺🇸 US 4 → tg@nicevpn123
       - 🇺🇸 US 5 → tg@nicevpn123
-      - 🇺🇸 US 6 → tg@nicevpn123
-      - 🇺🇸 US 7 → tg@nicevpn123
   - name: 💡 自动选择
     type: url-test
     url: https://www.google.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - BE 1 → tg@nicevpn123
-      - IE 1 → tg@nicevpn123
-      - 🇨🇦 CA 1 → tg@nicevpn123
-      - 🇬🇧 GB 1 → tg@nicevpn123
       - 🇯🇵 JP 1 → tg@nicevpn123
-      - 🇯🇵 JP 10 → tg@nicevpn123
-      - 🇯🇵 JP 11 → tg@nicevpn123
-      - 🇯🇵 JP 12 → tg@nicevpn123
-      - 🇯🇵 JP 13 → tg@nicevpn123
-      - 🇯🇵 JP 14 → tg@nicevpn123
-      - 🇯🇵 JP 15 → tg@nicevpn123
-      - 🇯🇵 JP 16 → tg@nicevpn123
-      - 🇯🇵 JP 17 → tg@nicevpn123
-      - 🇯🇵 JP 18 → tg@nicevpn123
-      - 🇯🇵 JP 19 → tg@nicevpn123
-      - 🇯🇵 JP 2 → tg@nicevpn123
-      - 🇯🇵 JP 20 → tg@nicevpn123
-      - 🇯🇵 JP 21 → tg@nicevpn123
-      - 🇯🇵 JP 22 → tg@nicevpn123
-      - 🇯🇵 JP 23 → tg@nicevpn123
-      - 🇯🇵 JP 24 → tg@nicevpn123
-      - 🇯🇵 JP 25 → tg@nicevpn123
-      - 🇯🇵 JP 26 → tg@nicevpn123
-      - 🇯🇵 JP 27 → tg@nicevpn123
-      - 🇯🇵 JP 3 → tg@nicevpn123
-      - 🇯🇵 JP 4 → tg@nicevpn123
-      - 🇯🇵 JP 5 → tg@nicevpn123
-      - 🇯🇵 JP 6 → tg@nicevpn123
-      - 🇯🇵 JP 7 → tg@nicevpn123
-      - 🇯🇵 JP 8 → tg@nicevpn123
-      - 🇯🇵 JP 9 → tg@nicevpn123
-      - 🇰🇷 KR 1 → tg@nicevpn123
-      - 🇰🇷 KR 2 → tg@nicevpn123
-      - 🇰🇷 KR 3 → tg@nicevpn123
-      - 🇳🇱 NL 1 → tg@nicevpn123
-      - 🇸🇬 SG 1 → tg@nicevpn123
-      - 🇸🇬 SG 2 → tg@nicevpn123
-      - 🇸🇬 SG 3 → tg@nicevpn123
-      - 🇸🇬 SG 4 → tg@nicevpn123
+      - 🇵🇱 PL 1 → tg@nicevpn123
       - 🇺🇸 US 1 → tg@nicevpn123
       - 🇺🇸 US 2 → tg@nicevpn123
       - 🇺🇸 US 3 → tg@nicevpn123
       - 🇺🇸 US 4 → tg@nicevpn123
       - 🇺🇸 US 5 → tg@nicevpn123
-      - 🇺🇸 US 6 → tg@nicevpn123
-      - 🇺🇸 US 7 → tg@nicevpn123
   - name: 🇭🇰 香港节点
     type: url-test
     url: https://www.google.com/generate_204
@@ -371,32 +254,6 @@ proxy-groups:
     tolerance: 100
     proxies:
       - 🇯🇵 JP 1 → tg@nicevpn123
-      - 🇯🇵 JP 10 → tg@nicevpn123
-      - 🇯🇵 JP 11 → tg@nicevpn123
-      - 🇯🇵 JP 12 → tg@nicevpn123
-      - 🇯🇵 JP 13 → tg@nicevpn123
-      - 🇯🇵 JP 14 → tg@nicevpn123
-      - 🇯🇵 JP 15 → tg@nicevpn123
-      - 🇯🇵 JP 16 → tg@nicevpn123
-      - 🇯🇵 JP 17 → tg@nicevpn123
-      - 🇯🇵 JP 18 → tg@nicevpn123
-      - 🇯🇵 JP 19 → tg@nicevpn123
-      - 🇯🇵 JP 2 → tg@nicevpn123
-      - 🇯🇵 JP 20 → tg@nicevpn123
-      - 🇯🇵 JP 21 → tg@nicevpn123
-      - 🇯🇵 JP 22 → tg@nicevpn123
-      - 🇯🇵 JP 23 → tg@nicevpn123
-      - 🇯🇵 JP 24 → tg@nicevpn123
-      - 🇯🇵 JP 25 → tg@nicevpn123
-      - 🇯🇵 JP 26 → tg@nicevpn123
-      - 🇯🇵 JP 27 → tg@nicevpn123
-      - 🇯🇵 JP 3 → tg@nicevpn123
-      - 🇯🇵 JP 4 → tg@nicevpn123
-      - 🇯🇵 JP 5 → tg@nicevpn123
-      - 🇯🇵 JP 6 → tg@nicevpn123
-      - 🇯🇵 JP 7 → tg@nicevpn123
-      - 🇯🇵 JP 8 → tg@nicevpn123
-      - 🇯🇵 JP 9 → tg@nicevpn123
   - name: 🇺🇲 美国节点
     type: url-test
     url: https://www.google.com/generate_204
@@ -408,8 +265,6 @@ proxy-groups:
       - 🇺🇸 US 3 → tg@nicevpn123
       - 🇺🇸 US 4 → tg@nicevpn123
       - 🇺🇸 US 5 → tg@nicevpn123
-      - 🇺🇸 US 6 → tg@nicevpn123
-      - 🇺🇸 US 7 → tg@nicevpn123
   - name: 🇹🇼 台湾节点
     type: url-test
     url: https://www.google.com/generate_204
@@ -423,79 +278,31 @@ proxy-groups:
     interval: 300
     tolerance: 100
     proxies:
-      - 🇸🇬 SG 1 → tg@nicevpn123
-      - 🇸🇬 SG 2 → tg@nicevpn123
-      - 🇸🇬 SG 3 → tg@nicevpn123
-      - 🇸🇬 SG 4 → tg@nicevpn123
+      - DIRECT
   - name: 🇰🇷 韩国节点
     type: url-test
     url: https://www.google.com/generate_204
     interval: 300
     tolerance: 100
     proxies:
-      - 🇰🇷 KR 1 → tg@nicevpn123
-      - 🇰🇷 KR 2 → tg@nicevpn123
-      - 🇰🇷 KR 3 → tg@nicevpn123
+      - DIRECT
   - name: 🌍 其他地区
     type: select
     proxies:
-      - BE 1 → tg@nicevpn123
-      - IE 1 → tg@nicevpn123
-      - 🇨🇦 CA 1 → tg@nicevpn123
-      - 🇬🇧 GB 1 → tg@nicevpn123
-      - 🇳🇱 NL 1 → tg@nicevpn123
+      - 🇵🇱 PL 1 → tg@nicevpn123
   - name: 🪜 故障转移
     type: fallback
     url: https://www.google.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - BE 1 → tg@nicevpn123
-      - IE 1 → tg@nicevpn123
-      - 🇨🇦 CA 1 → tg@nicevpn123
-      - 🇬🇧 GB 1 → tg@nicevpn123
       - 🇯🇵 JP 1 → tg@nicevpn123
-      - 🇯🇵 JP 10 → tg@nicevpn123
-      - 🇯🇵 JP 11 → tg@nicevpn123
-      - 🇯🇵 JP 12 → tg@nicevpn123
-      - 🇯🇵 JP 13 → tg@nicevpn123
-      - 🇯🇵 JP 14 → tg@nicevpn123
-      - 🇯🇵 JP 15 → tg@nicevpn123
-      - 🇯🇵 JP 16 → tg@nicevpn123
-      - 🇯🇵 JP 17 → tg@nicevpn123
-      - 🇯🇵 JP 18 → tg@nicevpn123
-      - 🇯🇵 JP 19 → tg@nicevpn123
-      - 🇯🇵 JP 2 → tg@nicevpn123
-      - 🇯🇵 JP 20 → tg@nicevpn123
-      - 🇯🇵 JP 21 → tg@nicevpn123
-      - 🇯🇵 JP 22 → tg@nicevpn123
-      - 🇯🇵 JP 23 → tg@nicevpn123
-      - 🇯🇵 JP 24 → tg@nicevpn123
-      - 🇯🇵 JP 25 → tg@nicevpn123
-      - 🇯🇵 JP 26 → tg@nicevpn123
-      - 🇯🇵 JP 27 → tg@nicevpn123
-      - 🇯🇵 JP 3 → tg@nicevpn123
-      - 🇯🇵 JP 4 → tg@nicevpn123
-      - 🇯🇵 JP 5 → tg@nicevpn123
-      - 🇯🇵 JP 6 → tg@nicevpn123
-      - 🇯🇵 JP 7 → tg@nicevpn123
-      - 🇯🇵 JP 8 → tg@nicevpn123
-      - 🇯🇵 JP 9 → tg@nicevpn123
-      - 🇰🇷 KR 1 → tg@nicevpn123
-      - 🇰🇷 KR 2 → tg@nicevpn123
-      - 🇰🇷 KR 3 → tg@nicevpn123
-      - 🇳🇱 NL 1 → tg@nicevpn123
-      - 🇸🇬 SG 1 → tg@nicevpn123
-      - 🇸🇬 SG 2 → tg@nicevpn123
-      - 🇸🇬 SG 3 → tg@nicevpn123
-      - 🇸🇬 SG 4 → tg@nicevpn123
+      - 🇵🇱 PL 1 → tg@nicevpn123
       - 🇺🇸 US 1 → tg@nicevpn123
       - 🇺🇸 US 2 → tg@nicevpn123
       - 🇺🇸 US 3 → tg@nicevpn123
       - 🇺🇸 US 4 → tg@nicevpn123
       - 🇺🇸 US 5 → tg@nicevpn123
-      - 🇺🇸 US 6 → tg@nicevpn123
-      - 🇺🇸 US 7 → tg@nicevpn123
   - name: 👉 国内网站
     type: select
     proxies:
