@@ -196,8 +196,7 @@ dns:
       - +.googleapis.com
       - +.gvt1.com
 proxies:
-  - {name: 🇭🇰 HK 1 → tg@nicevpn123, server: jpbgp.netvigor.cc, port: 19128, type: trojan, password: OccIqeORGQwiNkwS, sni: yazhou10.dynu.net, skip-cert-verify: true, udp: true}
-  - {name: 🇯🇵 JP 1 → tg@nicevpn123, server: 43.198.13.164, port: 41421, type: trojan, password: BxceQaOe, sni: t.me%252Fripaojiedian, skip-cert-verify: true, udp: true}
+  - {name: 🇳🇱 NL, server: 188.164.248.122, port: 443, type: trojan, password: c206d543-023d-46cc-9d5a-1f0f2fc16323, sni: space.byu.id.yxls.eu.cc, skip-cert-verify: true, network: ws, ws-opts: {path: "%2Fin-pdr", headers: {Host: space.byu.id.yxls.eu.cc}}, udp: true}
 proxy-groups:
   - name: 🌐 节点选择
     type: select
@@ -215,30 +214,28 @@ proxy-groups:
   - name: ✋ 手动选择
     type: select
     proxies:
-      - 🇭🇰 HK 1 → tg@nicevpn123
-      - 🇯🇵 JP 1 → tg@nicevpn123
+      - 🇳🇱 NL
   - name: 💡 自动选择
     type: url-test
     url: https://www.google.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - 🇭🇰 HK 1 → tg@nicevpn123
-      - 🇯🇵 JP 1 → tg@nicevpn123
+      - 🇳🇱 NL
   - name: 🇭🇰 香港节点
     type: url-test
     url: https://www.google.com/generate_204
     interval: 300
     tolerance: 100
     proxies:
-      - 🇭🇰 HK 1 → tg@nicevpn123
+      - DIRECT
   - name: 🇯🇵 日本节点
     type: url-test
     url: https://www.google.com/generate_204
     interval: 300
     tolerance: 100
     proxies:
-      - 🇯🇵 JP 1 → tg@nicevpn123
+      - DIRECT
   - name: 🇺🇲 美国节点
     type: url-test
     url: https://www.google.com/generate_204
@@ -270,15 +267,14 @@ proxy-groups:
   - name: 🌍 其他地区
     type: select
     proxies:
-      - DIRECT
+      - 🇳🇱 NL
   - name: 🪜 故障转移
     type: fallback
     url: https://www.google.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - 🇭🇰 HK 1 → tg@nicevpn123
-      - 🇯🇵 JP 1 → tg@nicevpn123
+      - 🇳🇱 NL
   - name: 👉 国内网站
     type: select
     proxies:
