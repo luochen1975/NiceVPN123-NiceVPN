@@ -197,8 +197,7 @@ dns:
       - +.gvt1.com
 proxies:
   - {name: 🇳🇱 NL 1 → tg@nicevpn123, server: 188.164.248.122, port: 443, type: trojan, password: c206d543-023d-46cc-9d5a-1f0f2fc16323, sni: space.byu.id.yxls.eu.cc, skip-cert-verify: true, network: ws, ws-opts: {path: "%2Fin-pdr", headers: {Host: space.byu.id.yxls.eu.cc}}, udp: true}
-  - {name: 🇷🇺 RU 1 → tg@nicevpn123, server: inspired-hound.rooster465.autos, port: 443, type: trojan, password: JT80563429, sni: inspired-hound.rooster465.autos, skip-cert-verify: true, udp: true}
-  - {name: 🇺🇸 US 1 → tg@nicevpn123, server: 18.166.59.129, port: 51396, type: trojan, password: BxceQaOe, sni: t.me%2Fripaojiedian, skip-cert-verify: true, udp: true}
+  - {name: 🇺🇸 US 1 → tg@nicevpn123, server: blackshadow.dpdns.org, port: 443, type: trojan, password: 2bcfbfba-b446-4ad5-93ad-72af9e008f61, sni: support.zoom.us.blackshadow.dpdns.org, skip-cert-verify: true, network: ws, ws-opts: {path: "%2F195.123.218.174-443", headers: {Host: support.zoom.us.blackshadow.dpdns.org}}, udp: true}
 proxy-groups:
   - name: 🌐 节点选择
     type: select
@@ -217,7 +216,6 @@ proxy-groups:
     type: select
     proxies:
       - 🇳🇱 NL 1 → tg@nicevpn123
-      - 🇷🇺 RU 1 → tg@nicevpn123
       - 🇺🇸 US 1 → tg@nicevpn123
   - name: 💡 自动选择
     type: url-test
@@ -226,7 +224,6 @@ proxy-groups:
     tolerance: 50
     proxies:
       - 🇳🇱 NL 1 → tg@nicevpn123
-      - 🇷🇺 RU 1 → tg@nicevpn123
       - 🇺🇸 US 1 → tg@nicevpn123
   - name: 🇭🇰 香港节点
     type: url-test
@@ -274,7 +271,6 @@ proxy-groups:
     type: select
     proxies:
       - 🇳🇱 NL 1 → tg@nicevpn123
-      - 🇷🇺 RU 1 → tg@nicevpn123
   - name: 🪜 故障转移
     type: fallback
     url: https://www.google.com/generate_204
@@ -282,7 +278,6 @@ proxy-groups:
     tolerance: 50
     proxies:
       - 🇳🇱 NL 1 → tg@nicevpn123
-      - 🇷🇺 RU 1 → tg@nicevpn123
       - 🇺🇸 US 1 → tg@nicevpn123
   - name: 👉 国内网站
     type: select
