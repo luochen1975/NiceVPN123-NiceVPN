@@ -196,9 +196,10 @@ dns:
       - +.googleapis.com
       - +.gvt1.com
 proxies:
-  - {name: 🇬🇧 GB 1 → tg@nicevpn123, server: alert-monster.rooster465.autos, port: 443, type: trojan, password: AQ71834695, skip-cert-verify: true, udp: true}
+  - {name: 🇬🇧 GB 1 → tg@nicevpn123, server: concise-lacewing.rooster465.autos, port: 443, type: trojan, password: AQ71834695, sni: concise-lacewing.rooster465.autos, skip-cert-verify: true, udp: true}
   - {name: 🇳🇱 NL 1 → tg@nicevpn123, server: 188.164.248.122, port: 443, type: trojan, password: c206d543-023d-46cc-9d5a-1f0f2fc16323, sni: space.byu.id.yxls.eu.cc, skip-cert-verify: true, network: ws, ws-opts: {path: "%2Fin-pdr", headers: {Host: space.byu.id.yxls.eu.cc}}, udp: true}
-  - {name: 🇺🇸 US 1 → tg@nicevpn123, server: 104.16.174.12, port: 443, type: trojan, password: humanity, sni: www.ignitelimit.com, skip-cert-verify: true, network: ws, ws-opts: {path: "%2Fassignment", headers: {Host: www.ignitelimit.com}}, udp: true}
+  - {name: 🇺🇸 US 1 → tg@nicevpn123, server: 172.67.149.60, port: 443, type: trojan, password: c206d543-023d-46cc-9d5a-1f0f2fc16323, sni: space.byu.id.yxls.eu.cc, skip-cert-verify: true, network: ws, ws-opts: {path: "%2Fin-pdr", headers: {Host: space.byu.id.yxls.eu.cc}}, udp: true}
+  - {name: 🇺🇸 US 2 → tg@nicevpn123, server: 104.16.174.12, port: 443, type: trojan, password: humanity, sni: www.ignitelimit.com, skip-cert-verify: true, network: ws, ws-opts: {path: "%2Fassignment", headers: {Host: www.ignitelimit.com}}, udp: true}
 proxy-groups:
   - name: 🌐 节点选择
     type: select
@@ -219,6 +220,7 @@ proxy-groups:
       - 🇬🇧 GB 1 → tg@nicevpn123
       - 🇳🇱 NL 1 → tg@nicevpn123
       - 🇺🇸 US 1 → tg@nicevpn123
+      - 🇺🇸 US 2 → tg@nicevpn123
   - name: 💡 自动选择
     type: url-test
     url: https://www.google.com/generate_204
@@ -228,6 +230,7 @@ proxy-groups:
       - 🇬🇧 GB 1 → tg@nicevpn123
       - 🇳🇱 NL 1 → tg@nicevpn123
       - 🇺🇸 US 1 → tg@nicevpn123
+      - 🇺🇸 US 2 → tg@nicevpn123
   - name: 🇭🇰 香港节点
     type: url-test
     url: https://www.google.com/generate_204
@@ -249,6 +252,7 @@ proxy-groups:
     tolerance: 100
     proxies:
       - 🇺🇸 US 1 → tg@nicevpn123
+      - 🇺🇸 US 2 → tg@nicevpn123
   - name: 🇹🇼 台湾节点
     type: url-test
     url: https://www.google.com/generate_204
@@ -284,6 +288,7 @@ proxy-groups:
       - 🇬🇧 GB 1 → tg@nicevpn123
       - 🇳🇱 NL 1 → tg@nicevpn123
       - 🇺🇸 US 1 → tg@nicevpn123
+      - 🇺🇸 US 2 → tg@nicevpn123
   - name: 👉 国内网站
     type: select
     proxies:
