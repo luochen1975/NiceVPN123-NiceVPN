@@ -196,7 +196,7 @@ dns:
       - +.googleapis.com
       - +.gvt1.com
 proxies:
-  - {name: 🇺🇸 US, server: Hkdcrtc-e.catcat321.com, port: 20041, type: trojan, password: ba07a8af-5544-48ac-ab62-3b6c00a44fa6, sni: de.catxstar.com, skip-cert-verify: true, udp: true}
+  - {name: 🇺🇸 US, server: hkdcrtc-e.catcat321.com, port: 20041, type: trojan, password: ba07a8af-5544-48ac-ab62-3b6c00a44fa6, sni: hkdcrtc-e.catcat321.com, skip-cert-verify: true, udp: true}
 proxy-groups:
   - name: 🌐 节点选择
     type: select
