@@ -196,16 +196,13 @@ dns:
       - +.googleapis.com
       - +.gvt1.com
 proxies:
-  - {name: IT 1 → tg@nicevpn123, server: 188.114.97.6, port: 443, type: trojan, password: MiTiVPN, sni: dde1-MiTiVPN--MiTiVPN--MiTiVPN---MiTiVPN--MiTiVPN--MiTiVPN.S88r.ir, skip-cert-verify: true, network: ws, ws-opts: {path: "%2F---%40MiTiVPN---%40MiTiVPN%2F---%40MiTiVPN---%40MiTiVPN%2F---%40MiTiVPN---%40MiTiVPN%2Fde---%40MiTiVPN---%40MiTiVPN%2F---%40MiTiVPN---%40MiTiVPN%2F---%40MiTiVPN---%40MiTiVPN", headers: {Host: dde1-MiTiVPN--MiTiVPN--MiTiVPN---MiTiVPN--MiTiVPN--MiTiVPN.S88r.ir}}, udp: true}
-  - {name: IT 2 → tg@nicevpn123, server: 188.114.98.0, port: 443, type: trojan, password: MITIVPN, sni: Ddee2-MiTiVPN--MiTiVPN--MiTiVPN---MiTiVPN--MiTiVPN--MiTiVPN.S-s-S.iR, skip-cert-verify: true, network: ws, ws-opts: {path: "%2F---%40MiTiVPN---%40MiTiVPN%2F---%40MiTiVPN---%40MiTiVPN%2F---%40MiTiVPN---%40MiTiVPN%2Fde2---%40MiTiVPN---%40MiTiVPN%2F---%40MiTiVPN---%40MiTiVPN%2F---%40MiTiVPN---%40MiTiVPN", headers: {Host: Ddee2-MiTiVPN--MiTiVPN--MiTiVPN---MiTiVPN--MiTiVPN--MiTiVPN.S-s-S.iR}}, udp: true}
-  - {name: 🇬🇧 GB 1 → tg@nicevpn123, server: creativeboxde2.zanity.net, port: 5223, type: ss, cipher: chacha20-ietf-poly1305, password: bSOOjTnIutwmTb9nTnIKm3, udp: true}
-  - {name: 🇬🇧 GB 2 → tg@nicevpn123, server: xunlinknode.csdjhajkshdjkas.com, port: 40028, type: ss, cipher: chacha20-ietf-poly1305, password: 28789988-887e-4e41-83cd-27bbfb7999ad, udp: true}
-  - {name: 🇷🇺 RU 1 → tg@nicevpn123, server: 88.210.36.106, port: 2377, type: ss, cipher: chacha20-ietf-poly1305, password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv, plugin: obfs, plugin-opts: {mode: tls, host: (TG @VPNine1)7eb777f:123571}, udp: true}
+  - {name: IT 1 → tg@nicevpn123, server: 188.114.98.0, port: 443, type: trojan, password: MITIVPN, sni: Ddee2-MiTiVPN--MiTiVPN--MiTiVPN---MiTiVPN--MiTiVPN--MiTiVPN.S-s-S.iR, skip-cert-verify: true, network: ws, ws-opts: {path: "%2F---%40MiTiVPN---%40MiTiVPN%2F---%40MiTiVPN---%40MiTiVPN%2F---%40MiTiVPN---%40MiTiVPN%2Fde2---%40MiTiVPN---%40MiTiVPN%2F---%40MiTiVPN---%40MiTiVPN%2F---%40MiTiVPN---%40MiTiVPN", headers: {Host: Ddee2-MiTiVPN--MiTiVPN--MiTiVPN---MiTiVPN--MiTiVPN--MiTiVPN.S-s-S.iR}}, udp: true}
+  - {name: IT 2 → tg@nicevpn123, server: 188.114.97.6, port: 443, type: trojan, password: MiTiVPN, sni: dde1-MiTiVPN--MiTiVPN--MiTiVPN---MiTiVPN--MiTiVPN--MiTiVPN.S88r.ir, skip-cert-verify: true, network: ws, ws-opts: {path: "%2F---%40MiTiVPN---%40MiTiVPN%2F---%40MiTiVPN---%40MiTiVPN%2F---%40MiTiVPN---%40MiTiVPN%2Fde---%40MiTiVPN---%40MiTiVPN%2F---%40MiTiVPN---%40MiTiVPN%2F---%40MiTiVPN---%40MiTiVPN", headers: {Host: dde1-MiTiVPN--MiTiVPN--MiTiVPN---MiTiVPN--MiTiVPN--MiTiVPN.S88r.ir}}, udp: true}
   - {name: 🇺🇸 US 1 → tg@nicevpn123, server: 152.70.26.250, port: 59924, type: ss, cipher: chacha20-ietf-poly1305, password: OWVhYWM4OTFlNGFhNTFiNjY5NDNlODI3ZDE5Njc0ZmE=, udp: true}
-  - {name: 🇺🇸 US 2 → tg@nicevpn123, server: Hkdcrtc-e.catcat321.com, port: 20041, type: trojan, password: ba07a8af-5544-48ac-ab62-3b6c00a44fa6, sni: de.catxstar.com, skip-cert-verify: true, udp: true}
-  - {name: 🇺🇸 US 3 → tg@nicevpn123, server: hkdcrtc-e.catcat321.com, port: 20041, type: trojan, password: ba07a8af-5544-48ac-ab62-3b6c00a44fa6, sni: de.catxstar.com, skip-cert-verify: true, udp: true}
+  - {name: 🇺🇸 US 2 → tg@nicevpn123, server: hkdcrtc-e.catcat321.com, port: 20041, type: trojan, password: ba07a8af-5544-48ac-ab62-3b6c00a44fa6, sni: de.catxstar.com, skip-cert-verify: true, udp: true}
+  - {name: 🇺🇸 US 3 → tg@nicevpn123, server: Hkdcrtc-e.catcat321.com, port: 20041, type: trojan, password: ba07a8af-5544-48ac-ab62-3b6c00a44fa6, sni: de.catxstar.com, skip-cert-verify: true, udp: true}
   - {name: 🇺🇸 US 4 → tg@nicevpn123, server: 16.162.22.218, port: 9149, type: trojan, password: BxceQaOe, sni: t.me%252Fripaojiedian, skip-cert-verify: true, udp: true}
-  - {name: 🇺🇸 US 5 → tg@nicevpn123, server: 16.162.164.238, port: 29085, type: trojan, password: BxceQaOe, sni: t.me%2Fripaojiedian, skip-cert-verify: true, udp: true}
+  - {name: 🇺🇸 US 5 → tg@nicevpn123, server: xunlinknode.csdjhajkshdjkas.com, port: 40028, type: ss, cipher: chacha20-ietf-poly1305, password: 28789988-887e-4e41-83cd-27bbfb7999ad, udp: true}
 proxy-groups:
   - name: 🌐 节点选择
     type: select
@@ -225,9 +222,6 @@ proxy-groups:
     proxies:
       - IT 1 → tg@nicevpn123
       - IT 2 → tg@nicevpn123
-      - 🇬🇧 GB 1 → tg@nicevpn123
-      - 🇬🇧 GB 2 → tg@nicevpn123
-      - 🇷🇺 RU 1 → tg@nicevpn123
       - 🇺🇸 US 1 → tg@nicevpn123
       - 🇺🇸 US 2 → tg@nicevpn123
       - 🇺🇸 US 3 → tg@nicevpn123
@@ -241,9 +235,6 @@ proxy-groups:
     proxies:
       - IT 1 → tg@nicevpn123
       - IT 2 → tg@nicevpn123
-      - 🇬🇧 GB 1 → tg@nicevpn123
-      - 🇬🇧 GB 2 → tg@nicevpn123
-      - 🇷🇺 RU 1 → tg@nicevpn123
       - 🇺🇸 US 1 → tg@nicevpn123
       - 🇺🇸 US 2 → tg@nicevpn123
       - 🇺🇸 US 3 → tg@nicevpn123
@@ -300,9 +291,6 @@ proxy-groups:
     proxies:
       - IT 1 → tg@nicevpn123
       - IT 2 → tg@nicevpn123
-      - 🇬🇧 GB 1 → tg@nicevpn123
-      - 🇬🇧 GB 2 → tg@nicevpn123
-      - 🇷🇺 RU 1 → tg@nicevpn123
   - name: 🪜 故障转移
     type: fallback
     url: https://www.google.com/generate_204
@@ -311,9 +299,6 @@ proxy-groups:
     proxies:
       - IT 1 → tg@nicevpn123
       - IT 2 → tg@nicevpn123
-      - 🇬🇧 GB 1 → tg@nicevpn123
-      - 🇬🇧 GB 2 → tg@nicevpn123
-      - 🇷🇺 RU 1 → tg@nicevpn123
       - 🇺🇸 US 1 → tg@nicevpn123
       - 🇺🇸 US 2 → tg@nicevpn123
       - 🇺🇸 US 3 → tg@nicevpn123
