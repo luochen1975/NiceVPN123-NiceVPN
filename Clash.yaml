@@ -196,14 +196,10 @@ dns:
       - +.googleapis.com
       - +.gvt1.com
 proxies:
-  - {name: 🇨🇳 CN 1 → tg@nicevpn123, server: 18.163.193.0, port: 15775, type: trojan, password: BxceQaOe, sni: t.me%2Fripaojiedian, skip-cert-verify: true, udp: true}
-  - {name: 🇮🇳 IN 1 → tg@nicevpn123, server: relaxed-gull.rooster465.autos, port: 443, type: trojan, password: ND91608427, sni: relaxed-gull.rooster465.autos, skip-cert-verify: true, udp: true}
   - {name: 🇯🇵 JP 1 → tg@nicevpn123, server: definite-sturgeon.rooster465.autos, port: 443, type: trojan, password: ND91608427, sni: definite-sturgeon.rooster465.autos, skip-cert-verify: true, udp: true}
   - {name: 🇯🇵 JP 2 → tg@nicevpn123, server: definite-malamute.rooster465.autos, port: 443, type: trojan, password: ND91608427, sni: definite-malamute.rooster465.autos, skip-cert-verify: true, udp: true}
-  - {name: 🇳🇱 NL 1 → tg@nicevpn123, server: 45.130.22.70, port: 32914, type: trojan, password: 1BARPLkaLl, sni: 45.130.22.70, skip-cert-verify: true, udp: true}
-  - {name: 🇺🇸 US 1 → tg@nicevpn123, server: 172.67.78.22, port: 443, type: trojan, password: 82dd5d38-1a65-42b9-835e-497b5b51eb84, sni: kamonka.eu.org, skip-cert-verify: true, network: ws, ws-opts: {path: "%2F", headers: {Host: kamonka.eu.org}}, udp: true}
-  - {name: 🇺🇸 US 2 → tg@nicevpn123, server: upright-impala.rooster465.autos, port: 443, type: trojan, password: ND91608427, sni: upright-impala.rooster465.autos, skip-cert-verify: true, udp: true}
-  - {name: 🇺🇸 US 3 → tg@nicevpn123, server: moved-meerkat.rooster465.autos, port: 443, type: trojan, password: ND91608427, sni: moved-meerkat.rooster465.autos, skip-cert-verify: true, udp: true}
+  - {name: 🇺🇸 US 1 → tg@nicevpn123, server: upright-impala.rooster465.autos, port: 443, type: trojan, password: ND91608427, sni: upright-impala.rooster465.autos, skip-cert-verify: true, udp: true}
+  - {name: 🇺🇸 US 2 → tg@nicevpn123, server: moved-meerkat.rooster465.autos, port: 443, type: trojan, password: ND91608427, sni: moved-meerkat.rooster465.autos, skip-cert-verify: true, udp: true}
 proxy-groups:
   - name: 🌐 节点选择
     type: select
@@ -221,28 +217,20 @@ proxy-groups:
   - name: ✋ 手动选择
     type: select
     proxies:
-      - 🇨🇳 CN 1 → tg@nicevpn123
-      - 🇮🇳 IN 1 → tg@nicevpn123
       - 🇯🇵 JP 1 → tg@nicevpn123
       - 🇯🇵 JP 2 → tg@nicevpn123
-      - 🇳🇱 NL 1 → tg@nicevpn123
       - 🇺🇸 US 1 → tg@nicevpn123
       - 🇺🇸 US 2 → tg@nicevpn123
-      - 🇺🇸 US 3 → tg@nicevpn123
   - name: 💡 自动选择
     type: url-test
     url: https://www.google.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - 🇨🇳 CN 1 → tg@nicevpn123
-      - 🇮🇳 IN 1 → tg@nicevpn123
       - 🇯🇵 JP 1 → tg@nicevpn123
       - 🇯🇵 JP 2 → tg@nicevpn123
-      - 🇳🇱 NL 1 → tg@nicevpn123
       - 🇺🇸 US 1 → tg@nicevpn123
       - 🇺🇸 US 2 → tg@nicevpn123
-      - 🇺🇸 US 3 → tg@nicevpn123
   - name: 🇭🇰 香港节点
     type: url-test
     url: https://www.google.com/generate_204
@@ -266,7 +254,6 @@ proxy-groups:
     proxies:
       - 🇺🇸 US 1 → tg@nicevpn123
       - 🇺🇸 US 2 → tg@nicevpn123
-      - 🇺🇸 US 3 → tg@nicevpn123
   - name: 🇹🇼 台湾节点
     type: url-test
     url: https://www.google.com/generate_204
@@ -291,23 +278,17 @@ proxy-groups:
   - name: 🌍 其他地区
     type: select
     proxies:
-      - 🇨🇳 CN 1 → tg@nicevpn123
-      - 🇮🇳 IN 1 → tg@nicevpn123
-      - 🇳🇱 NL 1 → tg@nicevpn123
+      - DIRECT
   - name: 🪜 故障转移
     type: fallback
     url: https://www.google.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - 🇨🇳 CN 1 → tg@nicevpn123
-      - 🇮🇳 IN 1 → tg@nicevpn123
       - 🇯🇵 JP 1 → tg@nicevpn123
       - 🇯🇵 JP 2 → tg@nicevpn123
-      - 🇳🇱 NL 1 → tg@nicevpn123
       - 🇺🇸 US 1 → tg@nicevpn123
       - 🇺🇸 US 2 → tg@nicevpn123
-      - 🇺🇸 US 3 → tg@nicevpn123
   - name: 👉 国内网站
     type: select
     proxies:
