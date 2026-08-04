@@ -196,10 +196,8 @@ dns:
       - +.googleapis.com
       - +.gvt1.com
 proxies:
-  - {name: 🇯🇵 JP 1 → tg@nicevpn123, server: definite-sturgeon.rooster465.autos, port: 443, type: trojan, password: ND91608427, sni: definite-sturgeon.rooster465.autos, skip-cert-verify: true, udp: true}
-  - {name: 🇯🇵 JP 2 → tg@nicevpn123, server: definite-malamute.rooster465.autos, port: 443, type: trojan, password: ND91608427, sni: definite-malamute.rooster465.autos, skip-cert-verify: true, udp: true}
-  - {name: 🇺🇸 US 1 → tg@nicevpn123, server: upright-impala.rooster465.autos, port: 443, type: trojan, password: ND91608427, sni: upright-impala.rooster465.autos, skip-cert-verify: true, udp: true}
-  - {name: 🇺🇸 US 2 → tg@nicevpn123, server: moved-meerkat.rooster465.autos, port: 443, type: trojan, password: ND91608427, sni: moved-meerkat.rooster465.autos, skip-cert-verify: true, udp: true}
+  - {name: IE 1 → tg@nicevpn123, server: skilled-lioness.rooster465.autos, port: 443, type: trojan, password: ND91608427, sni: skilled-lioness.rooster465.autos, skip-cert-verify: true, udp: true}
+  - {name: RO 1 → tg@nicevpn123, server: eager-louse.rooster465.autos, port: 443, type: trojan, password: ND91608427, sni: eager-louse.rooster465.autos, skip-cert-verify: true, udp: true}
 proxy-groups:
   - name: 🌐 节点选择
     type: select
@@ -217,20 +215,16 @@ proxy-groups:
   - name: ✋ 手动选择
     type: select
     proxies:
-      - 🇯🇵 JP 1 → tg@nicevpn123
-      - 🇯🇵 JP 2 → tg@nicevpn123
-      - 🇺🇸 US 1 → tg@nicevpn123
-      - 🇺🇸 US 2 → tg@nicevpn123
+      - IE 1 → tg@nicevpn123
+      - RO 1 → tg@nicevpn123
   - name: 💡 自动选择
     type: url-test
     url: https://www.google.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - 🇯🇵 JP 1 → tg@nicevpn123
-      - 🇯🇵 JP 2 → tg@nicevpn123
-      - 🇺🇸 US 1 → tg@nicevpn123
-      - 🇺🇸 US 2 → tg@nicevpn123
+      - IE 1 → tg@nicevpn123
+      - RO 1 → tg@nicevpn123
   - name: 🇭🇰 香港节点
     type: url-test
     url: https://www.google.com/generate_204
@@ -244,16 +238,14 @@ proxy-groups:
     interval: 300
     tolerance: 100
     proxies:
-      - 🇯🇵 JP 1 → tg@nicevpn123
-      - 🇯🇵 JP 2 → tg@nicevpn123
+      - DIRECT
   - name: 🇺🇲 美国节点
     type: url-test
     url: https://www.google.com/generate_204
     interval: 300
     tolerance: 100
     proxies:
-      - 🇺🇸 US 1 → tg@nicevpn123
-      - 🇺🇸 US 2 → tg@nicevpn123
+      - DIRECT
   - name: 🇹🇼 台湾节点
     type: url-test
     url: https://www.google.com/generate_204
@@ -278,17 +270,16 @@ proxy-groups:
   - name: 🌍 其他地区
     type: select
     proxies:
-      - DIRECT
+      - IE 1 → tg@nicevpn123
+      - RO 1 → tg@nicevpn123
   - name: 🪜 故障转移
     type: fallback
     url: https://www.google.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - 🇯🇵 JP 1 → tg@nicevpn123
-      - 🇯🇵 JP 2 → tg@nicevpn123
-      - 🇺🇸 US 1 → tg@nicevpn123
-      - 🇺🇸 US 2 → tg@nicevpn123
+      - IE 1 → tg@nicevpn123
+      - RO 1 → tg@nicevpn123
   - name: 👉 国内网站
     type: select
     proxies:
