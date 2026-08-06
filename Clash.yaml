@@ -196,11 +196,7 @@ dns:
       - +.googleapis.com
       - +.gvt1.com
 proxies:
-  - {name: IE 1 → tg@nicevpn123, server: skilled-lioness.rooster465.autos, port: 443, type: trojan, password: ND91608427, sni: skilled-lioness.rooster465.autos, skip-cert-verify: true, udp: true}
-  - {name: RO 1 → tg@nicevpn123, server: eager-louse.rooster465.autos, port: 443, type: trojan, password: ND91608427, sni: eager-louse.rooster465.autos, skip-cert-verify: true, udp: true}
-  - {name: RO 2 → tg@nicevpn123, server: upright-hamster.rooster465.autos, port: 443, type: trojan, password: ND91608427, sni: upright-hamster.rooster465.autos, skip-cert-verify: true, udp: true}
-  - {name: 🇺🇸 US 1 → tg@nicevpn123, server: nexigen.pro, port: 443, type: trojan, password: ersi13mjahoao8e6, sni: ramz.xuithree.dpdns.org, skip-cert-verify: true, network: ws, ws-opts: {path: "%2Fdksk", headers: {Host: ramz.xuithree.dpdns.org}}, udp: true}
-  - {name: 🇺🇸 US 2 → tg@nicevpn123, server: hkdcrtc-e.catcat321.com, port: 20066, type: trojan, password: 41c406e2-12b5-41f2-a329-d0621052d675, sni: hk.catxstar.com, skip-cert-verify: true, udp: true}
+  - {name: 🇺🇸 US, server: oplosgru-c.catcat321.com, port: 20068, type: trojan, password: 41c406e2-12b5-41f2-a329-d0621052d675, sni: hk.catxstar.com, skip-cert-verify: true, udp: true}
 proxy-groups:
   - name: 🌐 节点选择
     type: select
@@ -218,22 +214,14 @@ proxy-groups:
   - name: ✋ 手动选择
     type: select
     proxies:
-      - IE 1 → tg@nicevpn123
-      - RO 1 → tg@nicevpn123
-      - RO 2 → tg@nicevpn123
-      - 🇺🇸 US 1 → tg@nicevpn123
-      - 🇺🇸 US 2 → tg@nicevpn123
+      - 🇺🇸 US
   - name: 💡 自动选择
     type: url-test
     url: https://www.google.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - IE 1 → tg@nicevpn123
-      - RO 1 → tg@nicevpn123
-      - RO 2 → tg@nicevpn123
-      - 🇺🇸 US 1 → tg@nicevpn123
-      - 🇺🇸 US 2 → tg@nicevpn123
+      - 🇺🇸 US
   - name: 🇭🇰 香港节点
     type: url-test
     url: https://www.google.com/generate_204
@@ -254,8 +242,7 @@ proxy-groups:
     interval: 300
     tolerance: 100
     proxies:
-      - 🇺🇸 US 1 → tg@nicevpn123
-      - 🇺🇸 US 2 → tg@nicevpn123
+      - 🇺🇸 US
   - name: 🇹🇼 台湾节点
     type: url-test
     url: https://www.google.com/generate_204
@@ -280,20 +267,14 @@ proxy-groups:
   - name: 🌍 其他地区
     type: select
     proxies:
-      - IE 1 → tg@nicevpn123
-      - RO 1 → tg@nicevpn123
-      - RO 2 → tg@nicevpn123
+      - DIRECT
   - name: 🪜 故障转移
     type: fallback
     url: https://www.google.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - IE 1 → tg@nicevpn123
-      - RO 1 → tg@nicevpn123
-      - RO 2 → tg@nicevpn123
-      - 🇺🇸 US 1 → tg@nicevpn123
-      - 🇺🇸 US 2 → tg@nicevpn123
+      - 🇺🇸 US
   - name: 👉 国内网站
     type: select
     proxies:
