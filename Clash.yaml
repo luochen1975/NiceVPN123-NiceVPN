@@ -196,7 +196,10 @@ dns:
       - +.googleapis.com
       - +.gvt1.com
 proxies:
-  - {name: 🇺🇸 US, server: 104.20.48.11, port: 443, type: trojan, password: chrysanthemum, sni: cmee.ezbiz.dynv6.net, skip-cert-verify: true, network: ws, ws-opts: {path: "%2F", headers: {Host: cmee.ezbiz.dynv6.net}}, udp: true}
+  - {name: 🇪🇸 ES 1 → tg@nicevpn123, server: 193.148.19.213, port: 52794, type: trojan, password: 2eutknankxtbgkwcajzt, sni: 193.148.19.213, skip-cert-verify: true, udp: true}
+  - {name: 🇭🇰 HK 1 → tg@nicevpn123, server: 43.249.172.27, port: 443, type: trojan, password: tFjD2X1F6i9FfWp2GDU5Vbi1conuaChDKIYbw9zMFrqvMoSz, sni: hongkong.kingonestar.com, skip-cert-verify: true, udp: true}
+  - {name: 🇺🇸 US 1 → tg@nicevpn123, server: 129.151.66.64, port: 61312, type: ss, cipher: chacha20-ietf-poly1305, password: MGU4ZjVkMGNhY2Y3YzM0NmIxMDgyNDQ5OGVjZjY2Y2Y=, udp: true}
+  - {name: 🇺🇸 US 2 → tg@nicevpn123, server: Hkdcrtc-e.catcat321.com, port: 20041, type: trojan, password: ba07a8af-5544-48ac-ab62-3b6c00a44fa6, skip-cert-verify: true, udp: true}
 proxy-groups:
   - name: 🌐 节点选择
     type: select
@@ -214,21 +217,27 @@ proxy-groups:
   - name: ✋ 手动选择
     type: select
     proxies:
-      - 🇺🇸 US
+      - 🇪🇸 ES 1 → tg@nicevpn123
+      - 🇭🇰 HK 1 → tg@nicevpn123
+      - 🇺🇸 US 1 → tg@nicevpn123
+      - 🇺🇸 US 2 → tg@nicevpn123
   - name: 💡 自动选择
     type: url-test
     url: https://www.google.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - 🇺🇸 US
+      - 🇪🇸 ES 1 → tg@nicevpn123
+      - 🇭🇰 HK 1 → tg@nicevpn123
+      - 🇺🇸 US 1 → tg@nicevpn123
+      - 🇺🇸 US 2 → tg@nicevpn123
   - name: 🇭🇰 香港节点
     type: url-test
     url: https://www.google.com/generate_204
     interval: 300
     tolerance: 100
     proxies:
-      - DIRECT
+      - 🇭🇰 HK 1 → tg@nicevpn123
   - name: 🇯🇵 日本节点
     type: url-test
     url: https://www.google.com/generate_204
@@ -242,7 +251,8 @@ proxy-groups:
     interval: 300
     tolerance: 100
     proxies:
-      - 🇺🇸 US
+      - 🇺🇸 US 1 → tg@nicevpn123
+      - 🇺🇸 US 2 → tg@nicevpn123
   - name: 🇹🇼 台湾节点
     type: url-test
     url: https://www.google.com/generate_204
@@ -267,14 +277,17 @@ proxy-groups:
   - name: 🌍 其他地区
     type: select
     proxies:
-      - DIRECT
+      - 🇪🇸 ES 1 → tg@nicevpn123
   - name: 🪜 故障转移
     type: fallback
     url: https://www.google.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - 🇺🇸 US
+      - 🇪🇸 ES 1 → tg@nicevpn123
+      - 🇭🇰 HK 1 → tg@nicevpn123
+      - 🇺🇸 US 1 → tg@nicevpn123
+      - 🇺🇸 US 2 → tg@nicevpn123
   - name: 👉 国内网站
     type: select
     proxies:
