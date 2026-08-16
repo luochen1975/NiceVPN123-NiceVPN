@@ -196,9 +196,7 @@ dns:
       - +.googleapis.com
       - +.gvt1.com
 proxies:
-  - {name: 🇬🇧 GB 1 → tg@nicevpn123, server: cn02.somethingstranges.com, port: 8110, type: ss, cipher: chacha20-ietf, password: passwd, plugin: obfs, plugin-opts: {mode: http, host: 43309-nIao34iu.download.microsoft.com}, udp: true}
-  - {name: 🇯🇵 JP 1 → tg@nicevpn123, server: t11.qifei.app, port: 55682, type: trojan, password: 7d8e6db4-96cc-4710-afc0-619edde2d7a1, sni: t11.qifei.app, skip-cert-verify: true, udp: true}
-  - {name: 🇺🇸 US 1 → tg@nicevpn123, server: 104.16.174.109, port: 443, type: trojan, password: humanity, sni: www.ignitelimit.com, skip-cert-verify: true, network: ws, ws-opts: {path: "%2Fassignment", headers: {Host: www.ignitelimit.com}}, udp: true}
+  - {name: 🇯🇵 JP, server: t11.qifei.app, port: 55682, type: trojan, password: 7d8e6db4-96cc-4710-afc0-619edde2d7a1, sni: t11.qifei.app, skip-cert-verify: true, udp: true}
 proxy-groups:
   - name: 🌐 节点选择
     type: select
@@ -216,18 +214,14 @@ proxy-groups:
   - name: ✋ 手动选择
     type: select
     proxies:
-      - 🇬🇧 GB 1 → tg@nicevpn123
-      - 🇯🇵 JP 1 → tg@nicevpn123
-      - 🇺🇸 US 1 → tg@nicevpn123
+      - 🇯🇵 JP
   - name: 💡 自动选择
     type: url-test
     url: https://www.google.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - 🇬🇧 GB 1 → tg@nicevpn123
-      - 🇯🇵 JP 1 → tg@nicevpn123
-      - 🇺🇸 US 1 → tg@nicevpn123
+      - 🇯🇵 JP
   - name: 🇭🇰 香港节点
     type: url-test
     url: https://www.google.com/generate_204
@@ -241,14 +235,14 @@ proxy-groups:
     interval: 300
     tolerance: 100
     proxies:
-      - 🇯🇵 JP 1 → tg@nicevpn123
+      - 🇯🇵 JP
   - name: 🇺🇲 美国节点
     type: url-test
     url: https://www.google.com/generate_204
     interval: 300
     tolerance: 100
     proxies:
-      - 🇺🇸 US 1 → tg@nicevpn123
+      - DIRECT
   - name: 🇹🇼 台湾节点
     type: url-test
     url: https://www.google.com/generate_204
@@ -273,16 +267,14 @@ proxy-groups:
   - name: 🌍 其他地区
     type: select
     proxies:
-      - 🇬🇧 GB 1 → tg@nicevpn123
+      - DIRECT
   - name: 🪜 故障转移
     type: fallback
     url: https://www.google.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - 🇬🇧 GB 1 → tg@nicevpn123
-      - 🇯🇵 JP 1 → tg@nicevpn123
-      - 🇺🇸 US 1 → tg@nicevpn123
+      - 🇯🇵 JP
   - name: 👉 国内网站
     type: select
     proxies:
