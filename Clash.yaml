@@ -196,14 +196,9 @@ dns:
       - +.googleapis.com
       - +.gvt1.com
 proxies:
-  - {name: IR 1 → tg@nicevpn123, server: e2.cover20.ir, port: 30874, type: ss, cipher: chacha20-ietf-poly1305, password: BlRtjyYlj18kYcrEL/8wcbSyqNKSPESiwSDDvisu9+o=, udp: true}
-  - {name: 🇯🇵 JP 1 → tg@nicevpn123, server: 43.198.21.141, port: 27161, type: trojan, password: BxceQaOe, sni: t.me%2Fripaojiedian, skip-cert-verify: true, udp: true}
-  - {name: 🇯🇵 JP 2 → tg@nicevpn123, server: 43.198.21.141, port: 16691, type: trojan, password: BxceQaOe, sni: t.me%252Fripaojiedian, skip-cert-verify: true, udp: true}
-  - {name: 🇯🇵 JP 3 → tg@nicevpn123, server: 43.199.47.78, port: 53001, type: trojan, password: BxceQaOe, sni: t.me%2Fripaojiedian, skip-cert-verify: true, udp: true}
-  - {name: 🇺🇸 US 1 → tg@nicevpn123, server: space.byu.id.yxls.eu.cc, port: 443, type: trojan, password: 8ccc5a61-b4f5-4fe4-a394-65890d8f044b, sni: space.byu.id.yxls.eu.cc, skip-cert-verify: true, network: ws, ws-opts: {path: "%2Fsg-orcl", headers: {Host: space.byu.id.yxls.eu.cc}}, udp: true}
-  - {name: 🇺🇸 US 2 → tg@nicevpn123, server: 16.162.121.244, port: 27161, type: trojan, password: BxceQaOe, sni: t.me%2Fripaojiedian, skip-cert-verify: true, udp: true}
-  - {name: 🇺🇸 US 3 → tg@nicevpn123, server: ip.myip2.qzz.io, port: 443, type: trojan, password: humanity, sni: www.ignitelimit.com, skip-cert-verify: true, network: ws, ws-opts: {path: "%2Fassignment", headers: {Host: www.ignitelimit.com}}, udp: true}
-  - {name: 🇺🇸 US 4 → tg@nicevpn123, server: www.speedtest.org, port: 443, type: trojan, password: humanity, sni: www.ignitelimit.com, skip-cert-verify: true, network: ws, ws-opts: {path: "%2Fassignment", headers: {Host: www.ignitelimit.com}}, udp: true}
+  - {name: 🇺🇸 US 1 → tg@nicevpn123, server: 104.18.152.175, port: 443, type: trojan, password: humanity, sni: www.ignitelimit.com, skip-cert-verify: true, network: ws, ws-opts: {path: "%2Fassignment", headers: {Host: www.ignitelimit.com}}, udp: true}
+  - {name: 🇺🇸 US 2 → tg@nicevpn123, server: 104.17.111.8, port: 443, type: trojan, password: humanity, sni: www.ignitelimit.com, skip-cert-verify: true, network: ws, ws-opts: {path: "%2Fassignment", headers: {Host: www.ignitelimit.com}}, udp: true}
+  - {name: 🇺🇸 US 3 → tg@nicevpn123, server: 104.17.177.143, port: 443, type: trojan, password: humanity, sni: www.ignitelimit.com, skip-cert-verify: true, network: ws, ws-opts: {path: "%2Fassignment", headers: {Host: www.ignitelimit.com}}, udp: true}
 proxy-groups:
   - name: 🌐 节点选择
     type: select
@@ -221,28 +216,18 @@ proxy-groups:
   - name: ✋ 手动选择
     type: select
     proxies:
-      - IR 1 → tg@nicevpn123
-      - 🇯🇵 JP 1 → tg@nicevpn123
-      - 🇯🇵 JP 2 → tg@nicevpn123
-      - 🇯🇵 JP 3 → tg@nicevpn123
       - 🇺🇸 US 1 → tg@nicevpn123
       - 🇺🇸 US 2 → tg@nicevpn123
       - 🇺🇸 US 3 → tg@nicevpn123
-      - 🇺🇸 US 4 → tg@nicevpn123
   - name: 💡 自动选择
     type: url-test
     url: https://www.google.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - IR 1 → tg@nicevpn123
-      - 🇯🇵 JP 1 → tg@nicevpn123
-      - 🇯🇵 JP 2 → tg@nicevpn123
-      - 🇯🇵 JP 3 → tg@nicevpn123
       - 🇺🇸 US 1 → tg@nicevpn123
       - 🇺🇸 US 2 → tg@nicevpn123
       - 🇺🇸 US 3 → tg@nicevpn123
-      - 🇺🇸 US 4 → tg@nicevpn123
   - name: 🇭🇰 香港节点
     type: url-test
     url: https://www.google.com/generate_204
@@ -256,9 +241,7 @@ proxy-groups:
     interval: 300
     tolerance: 100
     proxies:
-      - 🇯🇵 JP 1 → tg@nicevpn123
-      - 🇯🇵 JP 2 → tg@nicevpn123
-      - 🇯🇵 JP 3 → tg@nicevpn123
+      - DIRECT
   - name: 🇺🇲 美国节点
     type: url-test
     url: https://www.google.com/generate_204
@@ -268,7 +251,6 @@ proxy-groups:
       - 🇺🇸 US 1 → tg@nicevpn123
       - 🇺🇸 US 2 → tg@nicevpn123
       - 🇺🇸 US 3 → tg@nicevpn123
-      - 🇺🇸 US 4 → tg@nicevpn123
   - name: 🇹🇼 台湾节点
     type: url-test
     url: https://www.google.com/generate_204
@@ -293,21 +275,16 @@ proxy-groups:
   - name: 🌍 其他地区
     type: select
     proxies:
-      - IR 1 → tg@nicevpn123
+      - DIRECT
   - name: 🪜 故障转移
     type: fallback
     url: https://www.google.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - IR 1 → tg@nicevpn123
-      - 🇯🇵 JP 1 → tg@nicevpn123
-      - 🇯🇵 JP 2 → tg@nicevpn123
-      - 🇯🇵 JP 3 → tg@nicevpn123
       - 🇺🇸 US 1 → tg@nicevpn123
       - 🇺🇸 US 2 → tg@nicevpn123
       - 🇺🇸 US 3 → tg@nicevpn123
-      - 🇺🇸 US 4 → tg@nicevpn123
   - name: 👉 国内网站
     type: select
     proxies:
