@@ -196,14 +196,10 @@ dns:
       - +.googleapis.com
       - +.gvt1.com
 proxies:
-  - {name: ZA 1 → tg@nicevpn123, server: kuso153.pacemakere.com, port: 101, type: trojan, password: 3b9deff947c74dde, skip-cert-verify: true, udp: true}
-  - {name: ZA 2 → tg@nicevpn123, server: kuso30.pacemakere.com, port: 101, type: trojan, password: 5e89314202a8405f, skip-cert-verify: true, udp: true}
-  - {name: 🇨🇳 CN 1 → tg@nicevpn123, server: 18.163.118.157, port: 10418, type: trojan, password: BxceQaOe, sni: t.me%2Fripaojiedian, skip-cert-verify: true, udp: true}
-  - {name: 🇨🇳 TW 1 → tg@nicevpn123, server: wti11.pacemakere.com, port: 20062, type: trojan, password: 88b3dd32347d4ffa, skip-cert-verify: true, udp: true}
-  - {name: 🇯🇵 JP 1 → tg@nicevpn123, server: jcnp178.pacemakere.com, port: 101, type: trojan, password: 6519a715da174466, skip-cert-verify: true, udp: true}
-  - {name: 🇺🇸 US 1 → tg@nicevpn123, server: 18.181.83.46, port: 2944, type: trojan, password: BxceQaOe, sni: t.me%2Fripaojiedian, skip-cert-verify: true, udp: true}
-  - {name: 🇺🇸 US 2 → tg@nicevpn123, server: kkvlvvq-a.catcat321.com, port: 20085, type: trojan, password: a126f35c-e832-4115-8593-b723ade3f7be, sni: hk.catxstar.com, skip-cert-verify: true, udp: true}
-  - {name: 🇺🇸 US 3 → tg@nicevpn123, server: kkvlvvq-a.catcat321.com, port: 20068, type: trojan, password: a126f35c-e832-4115-8593-b723ade3f7be, sni: hk.catxstar.com, skip-cert-verify: true, udp: true}
+  - {name: 🇨🇳 CN 1 → tg@nicevpn123, server: 121.46.230.138, port: 65443, type: ss, cipher: aes-256-cfb, password: 7eadc6dbe2ae, udp: true}
+  - {name: 🇺🇸 US 1 → tg@nicevpn123, server: kkvlvvq-a.catcat321.com, port: 20085, type: trojan, password: a126f35c-e832-4115-8593-b723ade3f7be, sni: hk.catxstar.com, skip-cert-verify: true, udp: true}
+  - {name: 🇺🇸 US 2 → tg@nicevpn123, server: kkvlvvq-a.catcat321.com, port: 20065, type: trojan, password: 7e70223b-f331-41d5-9313-02b8d2df2885, sni: hk.catxstar.com, skip-cert-verify: true, udp: true}
+  - {name: 🇺🇸 US 3 → tg@nicevpn123, server: hkdcrtc-e.catcat321.com, port: 20066, type: trojan, password: a126f35c-e832-4115-8593-b723ade3f7be, sni: hk.catxstar.com, skip-cert-verify: true, udp: true}
   - {name: 🇺🇸 US 4 → tg@nicevpn123, server: kkvlvvq-a.catcat321.com, port: 20066, type: trojan, password: a126f35c-e832-4115-8593-b723ade3f7be, sni: hk.catxstar.com, skip-cert-verify: true, udp: true}
 proxy-groups:
   - name: 🌐 节点选择
@@ -222,11 +218,7 @@ proxy-groups:
   - name: ✋ 手动选择
     type: select
     proxies:
-      - ZA 1 → tg@nicevpn123
-      - ZA 2 → tg@nicevpn123
       - 🇨🇳 CN 1 → tg@nicevpn123
-      - 🇨🇳 TW 1 → tg@nicevpn123
-      - 🇯🇵 JP 1 → tg@nicevpn123
       - 🇺🇸 US 1 → tg@nicevpn123
       - 🇺🇸 US 2 → tg@nicevpn123
       - 🇺🇸 US 3 → tg@nicevpn123
@@ -237,11 +229,7 @@ proxy-groups:
     interval: 300
     tolerance: 50
     proxies:
-      - ZA 1 → tg@nicevpn123
-      - ZA 2 → tg@nicevpn123
       - 🇨🇳 CN 1 → tg@nicevpn123
-      - 🇨🇳 TW 1 → tg@nicevpn123
-      - 🇯🇵 JP 1 → tg@nicevpn123
       - 🇺🇸 US 1 → tg@nicevpn123
       - 🇺🇸 US 2 → tg@nicevpn123
       - 🇺🇸 US 3 → tg@nicevpn123
@@ -259,7 +247,7 @@ proxy-groups:
     interval: 300
     tolerance: 100
     proxies:
-      - 🇯🇵 JP 1 → tg@nicevpn123
+      - DIRECT
   - name: 🇺🇲 美国节点
     type: url-test
     url: https://www.google.com/generate_204
@@ -276,7 +264,7 @@ proxy-groups:
     interval: 300
     tolerance: 100
     proxies:
-      - 🇨🇳 TW 1 → tg@nicevpn123
+      - DIRECT
   - name: 🇸🇬 狮城节点
     type: url-test
     url: https://www.google.com/generate_204
@@ -294,8 +282,6 @@ proxy-groups:
   - name: 🌍 其他地区
     type: select
     proxies:
-      - ZA 1 → tg@nicevpn123
-      - ZA 2 → tg@nicevpn123
       - 🇨🇳 CN 1 → tg@nicevpn123
   - name: 🪜 故障转移
     type: fallback
@@ -303,11 +289,7 @@ proxy-groups:
     interval: 300
     tolerance: 50
     proxies:
-      - ZA 1 → tg@nicevpn123
-      - ZA 2 → tg@nicevpn123
       - 🇨🇳 CN 1 → tg@nicevpn123
-      - 🇨🇳 TW 1 → tg@nicevpn123
-      - 🇯🇵 JP 1 → tg@nicevpn123
       - 🇺🇸 US 1 → tg@nicevpn123
       - 🇺🇸 US 2 → tg@nicevpn123
       - 🇺🇸 US 3 → tg@nicevpn123
