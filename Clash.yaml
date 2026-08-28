@@ -196,8 +196,8 @@ dns:
       - +.googleapis.com
       - +.gvt1.com
 proxies:
-  - {name: 🇺🇸 US 1 → tg@nicevpn123, server: kkvlvvq-a.catcat321.com, port: 20066, type: trojan, password: a126f35c-e832-4115-8593-b723ade3f7be, sni: hk.catxstar.com, skip-cert-verify: true, udp: true}
-  - {name: 🇺🇸 US 2 → tg@nicevpn123, server: hkdcrtc-e.catcat321.com, port: 20066, type: trojan, password: a126f35c-e832-4115-8593-b723ade3f7be, sni: hk.catxstar.com, skip-cert-verify: true, udp: true}
+  - {name: 🇨🇳 CN 1 → tg@nicevpn123, server: 121.46.230.233, port: 65443, type: ss, cipher: aes-256-cfb, password: 7eadc6dbe2ae, udp: true}
+  - {name: 🇺🇸 US 1 → tg@nicevpn123, server: join-telegram-channel-tirexnet.trex.kdns.fr, port: 443, type: trojan, password: humanity, sni: www.ignitelimit.com, skip-cert-verify: true, network: ws, ws-opts: {path: "%2Fassignment", headers: {Host: www.ignitelimit.com}}, udp: true}
 proxy-groups:
   - name: 🌐 节点选择
     type: select
@@ -215,16 +215,16 @@ proxy-groups:
   - name: ✋ 手动选择
     type: select
     proxies:
+      - 🇨🇳 CN 1 → tg@nicevpn123
       - 🇺🇸 US 1 → tg@nicevpn123
-      - 🇺🇸 US 2 → tg@nicevpn123
   - name: 💡 自动选择
     type: url-test
     url: https://www.google.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
+      - 🇨🇳 CN 1 → tg@nicevpn123
       - 🇺🇸 US 1 → tg@nicevpn123
-      - 🇺🇸 US 2 → tg@nicevpn123
   - name: 🇭🇰 香港节点
     type: url-test
     url: https://www.google.com/generate_204
@@ -246,7 +246,6 @@ proxy-groups:
     tolerance: 100
     proxies:
       - 🇺🇸 US 1 → tg@nicevpn123
-      - 🇺🇸 US 2 → tg@nicevpn123
   - name: 🇹🇼 台湾节点
     type: url-test
     url: https://www.google.com/generate_204
@@ -271,15 +270,15 @@ proxy-groups:
   - name: 🌍 其他地区
     type: select
     proxies:
-      - DIRECT
+      - 🇨🇳 CN 1 → tg@nicevpn123
   - name: 🪜 故障转移
     type: fallback
     url: https://www.google.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
+      - 🇨🇳 CN 1 → tg@nicevpn123
       - 🇺🇸 US 1 → tg@nicevpn123
-      - 🇺🇸 US 2 → tg@nicevpn123
   - name: 👉 国内网站
     type: select
     proxies:
