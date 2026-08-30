@@ -196,7 +196,7 @@ dns:
       - +.googleapis.com
       - +.gvt1.com
 proxies:
-  - {name: 🇨🇳 CN, server: 121.46.230.233, port: 65443, type: ss, cipher: aes-256-cfb, password: 7eadc6dbe2ae, udp: true}
+  - {name: 🇨🇳 CN, server: 121.46.230.138, port: 65443, type: ss, cipher: aes-256-cfb, password: 7eadc6dbe2ae, udp: true}
 proxy-groups:
   - name: 🌐 节点选择
     type: select
