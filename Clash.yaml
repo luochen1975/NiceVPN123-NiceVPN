@@ -196,7 +196,8 @@ dns:
       - +.googleapis.com
       - +.gvt1.com
 proxies:
-  - {name: 🇨🇳 CN, server: 121.46.230.138, port: 65443, type: ss, cipher: aes-256-cfb, password: 7eadc6dbe2ae, udp: true}
+  - {name: RW 1 → tg@nicevpn123, server: 3ce8ee8.hb.gladns.com, port: 2377, type: ss, cipher: chacha20-ietf-poly1305, password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv, plugin: obfs, plugin-opts: {mode: tls, host: (TG @WangCai2)c47ab06:133288}, udp: true}
+  - {name: 🇨🇳 CN 1 → tg@nicevpn123, server: 121.46.230.138, port: 65443, type: ss, cipher: aes-256-cfb, password: 7eadc6dbe2ae, udp: true}
 proxy-groups:
   - name: 🌐 节点选择
     type: select
@@ -214,14 +215,16 @@ proxy-groups:
   - name: ✋ 手动选择
     type: select
     proxies:
-      - 🇨🇳 CN
+      - RW 1 → tg@nicevpn123
+      - 🇨🇳 CN 1 → tg@nicevpn123
   - name: 💡 自动选择
     type: url-test
     url: https://www.google.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - 🇨🇳 CN
+      - RW 1 → tg@nicevpn123
+      - 🇨🇳 CN 1 → tg@nicevpn123
   - name: 🇭🇰 香港节点
     type: url-test
     url: https://www.google.com/generate_204
@@ -267,14 +270,16 @@ proxy-groups:
   - name: 🌍 其他地区
     type: select
     proxies:
-      - 🇨🇳 CN
+      - RW 1 → tg@nicevpn123
+      - 🇨🇳 CN 1 → tg@nicevpn123
   - name: 🪜 故障转移
     type: fallback
     url: https://www.google.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - 🇨🇳 CN
+      - RW 1 → tg@nicevpn123
+      - 🇨🇳 CN 1 → tg@nicevpn123
   - name: 👉 国内网站
     type: select
     proxies:
