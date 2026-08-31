@@ -196,8 +196,9 @@ dns:
       - +.googleapis.com
       - +.gvt1.com
 proxies:
-  - {name: RW 1 → tg@nicevpn123, server: 3ce8ee8.hb.gladns.com, port: 2377, type: ss, cipher: chacha20-ietf-poly1305, password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv, plugin: obfs, plugin-opts: {mode: tls, host: (TG @WangCai2)c47ab06:133288}, udp: true}
-  - {name: 🇨🇳 CN 1 → tg@nicevpn123, server: 121.46.230.138, port: 65443, type: ss, cipher: aes-256-cfb, password: 7eadc6dbe2ae, udp: true}
+  - {name: 🇬🇧 GB 1 → tg@nicevpn123, server: cn08.somethingstranges.com, port: 8211, type: ss, cipher: chacha20-ietf, password: passwd, plugin: obfs, plugin-opts: {mode: http, host: 37949-LD4JNZAf.download.microsoft.com}, udp: true}
+  - {name: 🇺🇸 US 1 → tg@nicevpn123, server: 15.204.247.244, port: 4444, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
+  - {name: 🇺🇸 US 2 → tg@nicevpn123, server: 104.18.152.161, port: 443, type: trojan, password: humanity, sni: www.ignitelimit.com, skip-cert-verify: true, network: ws, ws-opts: {path: "%2Fassignment", headers: {Host: www.ignitelimit.com}}, udp: true}
 proxy-groups:
   - name: 🌐 节点选择
     type: select
@@ -215,16 +216,18 @@ proxy-groups:
   - name: ✋ 手动选择
     type: select
     proxies:
-      - RW 1 → tg@nicevpn123
-      - 🇨🇳 CN 1 → tg@nicevpn123
+      - 🇬🇧 GB 1 → tg@nicevpn123
+      - 🇺🇸 US 1 → tg@nicevpn123
+      - 🇺🇸 US 2 → tg@nicevpn123
   - name: 💡 自动选择
     type: url-test
     url: https://www.google.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - RW 1 → tg@nicevpn123
-      - 🇨🇳 CN 1 → tg@nicevpn123
+      - 🇬🇧 GB 1 → tg@nicevpn123
+      - 🇺🇸 US 1 → tg@nicevpn123
+      - 🇺🇸 US 2 → tg@nicevpn123
   - name: 🇭🇰 香港节点
     type: url-test
     url: https://www.google.com/generate_204
@@ -245,7 +248,8 @@ proxy-groups:
     interval: 300
     tolerance: 100
     proxies:
-      - DIRECT
+      - 🇺🇸 US 1 → tg@nicevpn123
+      - 🇺🇸 US 2 → tg@nicevpn123
   - name: 🇹🇼 台湾节点
     type: url-test
     url: https://www.google.com/generate_204
@@ -270,16 +274,16 @@ proxy-groups:
   - name: 🌍 其他地区
     type: select
     proxies:
-      - RW 1 → tg@nicevpn123
-      - 🇨🇳 CN 1 → tg@nicevpn123
+      - 🇬🇧 GB 1 → tg@nicevpn123
   - name: 🪜 故障转移
     type: fallback
     url: https://www.google.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - RW 1 → tg@nicevpn123
-      - 🇨🇳 CN 1 → tg@nicevpn123
+      - 🇬🇧 GB 1 → tg@nicevpn123
+      - 🇺🇸 US 1 → tg@nicevpn123
+      - 🇺🇸 US 2 → tg@nicevpn123
   - name: 👉 国内网站
     type: select
     proxies:
