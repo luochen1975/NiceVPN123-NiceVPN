@@ -197,7 +197,6 @@ dns:
       - +.gvt1.com
 proxies:
   - {name: 🇨🇳 CN 1 → tg@nicevpn123, server: 121.46.230.233, port: 65443, type: ss, cipher: aes-256-cfb, password: 7eadc6dbe2ae, udp: true}
-  - {name: 🇭🇰 HK 1 → tg@nicevpn123, server: hk04.qianmoip.win, port: 52224, type: trojan, password: d742752c-4231-4695-801e-f06d77f0f277, sni: taobao.com, skip-cert-verify: true, udp: true}
   - {name: 🇺🇸 US 1 → tg@nicevpn123, server: 100.42.228.109, port: 443, type: trojan, password: BxceQaOe, sni: t.me%2Fripaojiedian, skip-cert-verify: true, udp: true}
 proxy-groups:
   - name: 🌐 节点选择
@@ -217,7 +216,6 @@ proxy-groups:
     type: select
     proxies:
       - 🇨🇳 CN 1 → tg@nicevpn123
-      - 🇭🇰 HK 1 → tg@nicevpn123
       - 🇺🇸 US 1 → tg@nicevpn123
   - name: 💡 自动选择
     type: url-test
@@ -226,7 +224,6 @@ proxy-groups:
     tolerance: 50
     proxies:
       - 🇨🇳 CN 1 → tg@nicevpn123
-      - 🇭🇰 HK 1 → tg@nicevpn123
       - 🇺🇸 US 1 → tg@nicevpn123
   - name: 🇭🇰 香港节点
     type: url-test
@@ -234,7 +231,7 @@ proxy-groups:
     interval: 300
     tolerance: 100
     proxies:
-      - 🇭🇰 HK 1 → tg@nicevpn123
+      - DIRECT
   - name: 🇯🇵 日本节点
     type: url-test
     url: https://www.google.com/generate_204
@@ -281,7 +278,6 @@ proxy-groups:
     tolerance: 50
     proxies:
       - 🇨🇳 CN 1 → tg@nicevpn123
-      - 🇭🇰 HK 1 → tg@nicevpn123
       - 🇺🇸 US 1 → tg@nicevpn123
   - name: 👉 国内网站
     type: select
